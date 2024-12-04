@@ -1,0 +1,193 @@
+/*
+    @- Registration page style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.
+*/
+%input-tag
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0%;
+    &:focus{
+        @extend %no-boxshadow;
+     }
+}
+
+.modal-body
+{
+     .outer_1{
+        width:100%;
+        display:flex;
+        .inner_1{
+            width:45%;
+        }
+        .inner_2
+        {
+            width:55%;
+            .btn{
+                width:100%;
+                background: $dark-red;
+                border: none;
+            }
+            .termsRedirect{
+                color:$font-gray;
+                font-size: ($value-10 + 2);
+                margin-top: $value-10;
+                .internalPolicy{
+                    color:$pale-dark-blue;
+                }
+                .signUpredirect {
+                    padding: 5px;
+                }
+            }
+            h6{
+                color:$font-gray;
+            }
+        }
+}
+    .signIn-sec
+    {
+        padding:0 ($value-5 * 6);
+        input[type=email],[type=password]
+        {
+            @extend %input-tag;
+            margin-bottom: $value-5 * 5;
+            padding: $value-5 0;
+
+        }
+
+    }
+    .mainwrapper{
+      width: 6.5rem;
+      .header{
+         background: #ffffff;
+        .header-title{
+          position: relative;
+          top: 8px;
+          h4{
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+}
+.modal-header
+{
+        border-bottom:none !important;
+        padding: 1rem 0 0.5rem 0.7rem !important;
+        border-bottom: ($value-5 - 3) solid $yellow !important;
+        margin-bottom: $value-10 * 3;
+        p{
+            // margin-top: $value-5 * 4;
+            font-size: ($value-10 * 2) + 2;
+            margin-bottom: 0.5rem;
+            font-weight: $global_font_weight + 250;
+        }
+        .close
+        {
+            padding: 0 !important;
+            margin: (- $value-10) $value-10 !important;
+        }
+}
+.modal-footer
+{
+   border-top:none !important;
+}
+
+.signIn{
+    padding: 0px !important;
+        .form-group {
+            margin-bottom: 1.75rem;
+        }
+        .inner_2
+        {
+            .sigInForm{
+                margin:($value-10 * 5) ($value-5 * 5);
+
+                .forgotPassword{
+                    text-align:center;
+                    display: block;
+                    color:$pale-dark-blue;
+                }
+
+            }
+        }
+        .password-container {
+            position: relative;
+            .password-show-eye {
+                position: absolute;
+                top: 8px;
+                right: 35px;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+.signUp{
+    padding: 0px !important;
+    .inner_2{
+        .form{
+            margin:($value-10 * 2) ($value-5 * 5);
+            .form-group {
+                margin:0  0.5rem  0.75rem 0;
+            }
+        }
+    }
+    .password-container {
+        position: relative;
+        .password-show-eye {
+            position: absolute;
+            top: 8px;
+            right: 35px;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+}
+.close-icon {
+    position: absolute;
+    right: 0;
+    // padding: 0px 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.thanks{
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: #a63c18;
+    font-size: 1rem;
+}
+
+.form{
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.loginOtpForm{
+    text-align: center !important;
+}
+
+.enquiryOtpContainer{
+    padding-bottom: 15px;
+    width: 100%;
+}
+.reset-password-container {
+    position: relative;
+    .password-show-eye {
+        position: absolute;
+        top: 58px;
+        right: 28px;
+        outline: none;
+        cursor: pointer;
+        svg {
+            font-size: 16px;
+            color:black;
+        }
+    }
+}

@@ -1,0 +1,213 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 769px) {
+    .quiz-container {
+      // margin: 2.5rem auto;
+    }
+  }
+
+
+
+  .quiz-container {
+    width: 100%;
+    // position: absolute;
+    // top: 32%;
+    // left: 50%;
+    // font-size: 25px;
+    // font-style: italic;
+    // transform: translate(-50%, -45%);
+    // .module-title {
+    //   background-color: #000;
+    //   color: #fff;
+    //   width: 100%;
+    //   height: 50px;
+    //   padding: 5px;
+    //   text-align: center;
+    // }
+    .module-title {
+      font-size: 25px;
+      font-style: italic;
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 50px;
+      padding: 5px;
+      text-align: center;
+    }
+    .question-section {
+        font-size: 25px;
+        font-style: italic;
+    }
+  }
+
+  /* Result Component */
+  .quiz-results {
+    background: #ffffff;
+    padding: 1.5rem 2.5rem;
+    font-style: italic;
+    p,
+    .alert {
+      margin-bottom: 0;
+    }
+    .alert {
+      font-style: normal;
+      padding: .5rem 1.25rem;
+      p {
+        display: inline;
+        padding-left: 10px;
+      }
+    }
+    .answer-heading {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .answer-marks {
+      font-size: 1.2rem
+    }
+
+    .quiz-results-heading, .quiz-results-body {
+      margin: 20px 5px 0;
+      font-size: 1.2rem;
+    }
+    .quiz-results-heading {
+      > div {
+        font-weight: bold;
+      }
+    }
+    .questionContainer{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        p{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+    .descriptionContainer{
+        p{
+            font-style: italic;
+        }
+    }
+}
+
+  /* Quiz Component */
+  .answerOptions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* QuestionCount Component */
+  .questionCount {
+    padding: 1.5rem 2.5rem 0;
+    font-size: 1rem;
+    > span {
+      margin: 0px 5px;
+    }
+  }
+
+  /* Question Component */
+  .question {
+    margin: 0;
+    // padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    padding-left: 2.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .description {
+    margin: 0;
+    padding-left: 2.5rem;
+    // padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+    font-style: italic;
+    font-size: 1rem;
+  }
+
+  /* AnswerOption Component */
+  .answerOption {
+    border-top: 1px solid #eee;
+  }
+
+  .answerOption:hover {
+    background-color: #eefbfe;
+  }
+
+  .radioCustomButton {
+    position: absolute;
+    width: auto;
+    opacity: 0;
+  }
+
+  .radioCustomButton,
+  .radioCustomLabel {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .radioCustomLabel {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 2.5rem 1rem 5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .radioCustomButton ~ .radioCustomLabel:before {
+    position: absolute;
+    top: 20px;
+    left: 38px;
+    width: 28px;
+    height: 28px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+
+  .radioCustomButton:checked ~ .radioCustomLabel:before {
+    content: '';
+    background: #8bc53f url(../../../img/icon-check.svg) no-repeat;
+    background-size: 27px;
+    border-color: #8bc53f;
+  }
+
+  /* Animation */
+  .fade-enter {
+    opacity: 0;
+  }
+
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out 0.3s;
+  }
+
+  .fade-leave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+  }
+
+  .fade-leave.fade-leave-active {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade-appear {
+    opacity: 0;
+  }
+
+  .fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  /* quiz css ends*/
+
+@import './QuizMedia.scss';

@@ -1,0 +1,108 @@
+/* 
+    @- Landing Page Media Query Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+
+/**/
+@media(max-width:1200px){
+.freeCourseSec{
+    .freeCourseSecAlgn{
+        .freeCourseSecCardAlgn{
+            .freeCourseSecHeadingTag{
+                 .courseBignrTag{
+                     font-size: ($value-5 * 3) + 1;
+                 }
+            }
+        }
+    }
+}
+}
+@media(max-width:991px){
+    .wiculty-for-business {
+        .corprateSec{
+            padding: 20px 20px 10px 20px;
+        }
+    }
+    .reffer-conatiner {
+        .homeCard {
+            margin-bottom: 20px;
+        }
+        .horizantalCourseCard {
+            margin-bottom: 10px;
+
+        }
+        .freeCourseSec{
+            .freeCourseSecAlgn{
+                .freeCourseSecCardAlgn{
+                    &:after {
+                        background: transparent !important;
+                    }
+                }
+            }
+        }
+    }
+    .blogs-menu-container{
+        .slick-next {
+            right: -5px;
+        }
+        .slick-prev {
+            left: -15px;
+        }
+    }
+    .analyzaHolder{
+        display: none;
+    }
+    .corporateHolder{
+        display: none;
+    }
+    .partnersHolder{
+        display: none;
+    }
+    .nurture-images-conatiner{
+        display: none;
+    }
+    .pitchHolder {
+        .pitchHolderInner {
+            width: 85%;
+        }
+    }
+    .feature-section {
+        text-align: center;
+    }
+
+    .home-page-section {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .pitchHolder {
+        .pitchHolderInner {
+        width: 85%;
+        }
+    }
+
+}
+  
+  
+// Mobile 
+@media only screen and (max-width: 767px) {
+    .pitchHolder {
+      padding: 0px;
+      .pitchHolderInner {
+        width: 100%;
+      }
+    }
+
+    .landingPageBannersec {
+        h1 {
+            font-size: 1.5rem !important;
+        }
+        h2 {
+            font-size: 1.2rem !important;
+        }
+    }
+}

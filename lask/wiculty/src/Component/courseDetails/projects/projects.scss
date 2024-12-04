@@ -1,0 +1,43 @@
+.project-container {
+  .slick-initialized {
+    .slick-slide {
+        padding: 10px 20px;
+    }
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #ff6f00;
+    font-size: 24px;
+  }
+}
+.project-item {
+  max-width: 350px;
+  min-height: 350px;
+  position: relative;
+  .project-desc {
+    min-height: 200px;
+    .see-more {
+      color: #8360c3;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+  }
+  .project-logo {
+    border-radius: 0 10px 10px 0;
+    display: inline-block;
+    img {
+      width: 40px;
+    }
+  }
+  &:before{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    height: 8px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, #F6724B 0%, #EFAC49 100%);
+  }
+}
+

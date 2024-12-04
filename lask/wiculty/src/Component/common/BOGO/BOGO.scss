@@ -1,0 +1,73 @@
+.BOGO_offer_title {
+    letter-spacing: 1.2px;
+}
+.BOGO_card {
+    border-radius: 5px;
+    background: #9EE5FF;
+    // background: linear-gradient(240deg, rgba(156,233,249,1) 33%, rgba(39,180,212,1) 72%);
+    // background-color: #1161AB;
+    // background-image: linear-gradient(to top, #248de4, #0c5397);
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 220px;
+    height: 100%;
+    box-shadow: 6px 10px 40px -1px rgba(0,0,0,0.81);
+    position: relative;
+    overflow: hidden;
+    .blob {
+        position: absolute;
+        right: -230px;
+        top: -100px;
+        width: 400px;
+        z-index: 1;
+    }
+    .text-bogo {
+        color: #1D5F97;
+    }
+    .BOGO_card_offertitle {
+        font-size: 1.2rem;
+        position: relative;
+        z-index: 5;
+        h4 {
+            white-space: pre;
+        }
+    }
+    .BOGO_promotion {
+        p {
+            letter-spacing: .5px;
+        }
+    }
+    .BOGO_icons {
+        .BOGO_icon-size {
+            font-size: 2rem;
+            color: #329ac2;
+        }
+    }
+    .offer_count {
+        .odometer-block span .hour,
+        .odometer-block span .min,
+        .odometer-block span .sec,
+        .odometer-block span .day {
+            background: #8ddbf3;
+            font-size: 1em;
+            padding: 2px 5px;
+            color: #1d5f97;
+            display: inline-block;
+            min-width: 25px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+    }
+    .course_list {
+        ul {
+            svg {
+                font-size: 1.6rem;
+                vertical-align: text-top;
+            }
+        }
+    }
+
+}
+.big_text {
+    font-size: 1.6rem;
+}

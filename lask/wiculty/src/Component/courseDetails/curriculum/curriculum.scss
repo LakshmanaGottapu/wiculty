@@ -1,0 +1,115 @@
+.curriculum-menu-container {
+    .curriculumSection_tab_header {
+        // background: linear-gradient(to right, #182848, #4b6cb7);
+        color: #fff;
+        background-image: linear-gradient(to left, #248de4, #0c5397);
+        min-height: 120px;
+    }
+    .curriculumSection_verticalTabs {
+        background-color: #f0864a;
+        min-height: 550px;
+        
+        .curriculumSection_tabList {
+            // background: rgba(246, 111, 4, .8);
+            hr {
+                border: .5px solid rgba(255, 255,255, .6);
+            }
+            .tab_Item.active {
+                border-left: 5px solid #0993F7;
+                .selected-item {
+                    min-height: 40px;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    
+                }
+            }
+            .tab_Item {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                min-height:40px;
+                font-weight: 500;
+                padding: 5px 20px;
+                border-left: 5px solid transparent;
+                cursor: pointer;
+                svg {
+                    font-size: 2rem;
+                    color: rgb(46,109,230);
+                }
+                > p {
+                    margin: 0px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            .tab_Item:hover {
+                border-left: 5px solid #0993F7;
+            }
+        }
+        
+    }
+    .curriculumSection_horizontalTabs {
+        background-color: rgba(250,154,75,.8);
+        min-height: 200px;
+        hr {
+            border: .5px solid rgba(255, 255,255, .6);
+        }
+        .tabs_container {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+        .tab_Item {
+            min-height:40px;
+            font-weight: 500;
+            padding: 5px 20px;
+            border-left: 5px solid transparent;
+            cursor: pointer;
+            border-left: 5px solid transparent;
+            > p {
+                margin: 0px;
+                svg {
+                    color: rgb(201, 208, 218);
+                }
+            }
+        }
+        .tab_Item.active {
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-left: 5px solid #0993F7;
+        }
+        
+        .tab_Item:hover {
+            border-left: 5px solid #0993F7;
+        }
+    }
+
+    .curriculumSection_chapters {
+        .curriculum_title {
+            margin: 5px 20px;
+            font-weight: 600;;
+        }
+    }
+    .curriculumSection_overview {
+        background: #fff;
+        padding: 1em;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        -webkit-box-shadow: 1px 1px 6px #ccc;
+        box-shadow: 1px 1px 6px #ccc;
+        margin-bottom: 2em;
+        border-left: 4px solid #0096ff;
+        max-width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+}
+
+.currm_dwnd {
+    border: 2px solid white;
+}
+
+@import './curriculumMediaQuery.scss';

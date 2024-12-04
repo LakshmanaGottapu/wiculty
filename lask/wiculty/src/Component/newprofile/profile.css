@@ -1,0 +1,110 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+.svg-tick {
+	width: 1.7rem;
+	cursor: pointer;
+	color: green;
+}
+.svg-X {
+	width: 1.7rem;
+	cursor: pointer;
+	color: blue;
+}
+.svg-edit {
+	width: 1.5rem;
+	color: #ff6f00;
+	cursor: pointer;
+}
+.svg-groom {
+	width: 1.5rem;
+	color: #ff6f00;
+}
+.svg-other {
+	width: 2rem;
+	color: #ff6f00;
+}
+.svg-edu {
+	width: 1.5rem;
+	color: #ff6f00;
+}
+.svg-edit1 {
+	width: 1.5rem;
+	color: #ff6f00;
+	cursor: pointer;
+	display: none;
+}
+.pro-inputs:hover .svg-edit1 {
+	display: block;
+}
+.svg-edit2 {
+	width: 1.5rem;
+	color: #ff6f00;
+	cursor: pointer;
+	display: none;
+}
+.gro-scope:hover .svg-edit2 {
+	display: block
+}
+.svg-edit3 {
+	width: 1.5rem;
+	color: #ff6f00;
+	cursor: pointer;
+	display: none;
+}
+.edu-details:hover .svg-edit3 {
+	display: block
+}
+.svg-edit4 {
+	width: 1.5rem;
+	color: #ff6f00;
+	cursor: pointer;
+	display: none;
+}
+.cert-details:hover .svg-edit4 {
+	display: block
+}
+.svg-edit5 {
+	width: 1.5rem;
+	color: #ff6f00;
+	cursor: pointer;
+	display: none;
+}
+.personal-details:hover .svg-edit5 {
+	display: block
+}
+
+
+@media only screen and (max-width: 600px) {
+	.svg-edit1 {
+		width: 1.5rem;
+		color: #ff6f00;
+		cursor: pointer;
+		display: block;
+	}
+	.svg-edit2 {
+		width: 1.5rem;
+		color: #ff6f00;
+		cursor: pointer;
+		display: block;
+	}
+	.svg-edit3 {
+		width: 1.5rem;
+		color: #ff6f00;
+		cursor: pointer;
+		display: block;
+	}
+	.svg-edit4 {
+		width: 1.5rem;
+		color: #ff6f00;
+		cursor: pointer;
+		display: block;
+	}
+	.svg-edit5 {
+		width: 1.5rem;
+		color: #ff6f00;
+		cursor: pointer;
+		display: block;
+	}
+}

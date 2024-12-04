@@ -1,0 +1,28 @@
+.courses{
+     border: 1px solid #F2994A;
+     background-color: #F2994A;
+     box-sizing: border-box;
+     text-transform: uppercase;
+     width: 100%;
+     max-width: 230px;
+     border-radius: 4px;
+     font-size: 14px;
+     padding: 8px 10px;
+     font-size: 15px;
+     margin-left:90px;
+}
+.main-search-input{
+    padding: 0 50px 0 15px;
+    width: 100%;
+    height: 52px;
+    border: 1px solid #F2994A;
+    border-radius: 6px;
+
+}
+h1{
+    color: #8360C3;
+
+}
+p{
+    color: #8360C3;
+}

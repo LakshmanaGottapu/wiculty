@@ -1,0 +1,299 @@
+/*
+    @- Style's of each section would be defined .
+
+            %- Only the styles defined in this scss are permitted to be used in the product.
+            %- To use different style never change global variable value.
+               Create a new class, and by using simple math alter your class with global size.
+*/
+
+/*Unset of Bootstrap Styles*/
+a {
+    text-decoration: none !important;
+}
+%no-border
+{
+    border:none !important;
+}
+%no-boxshadow
+{
+    box-shadow: none !important;
+}
+%no-margin
+{
+    margin: 0;
+}
+%no-padding
+{
+    padding: 0;
+}
+
+%page-padding{
+    padding: 0 ($value-5 *9);
+}
+
+%text-center
+{
+    text-align: center;
+}
+%generalised-box-shadow {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+%default-margin {
+    margin:($value-5 * 3) 0;
+}
+%content-visible {
+    margin-top:($value-10 * 7) + 5 ;
+}
+
+.wiculty-blue {
+    color: $wiculty-blue;
+}
+
+.display-flex,
+.flex{
+    display:flex;
+}
+.btn-warning{
+    background: $yellow;
+    color: white;
+}
+.btn-warning:hover{
+    background: $yellow;
+    color: white;
+}
+
+.wic-btn-theme {
+    background: $wiculty-theme-color;
+    color: white;
+    border: 1px solid $wiculty-theme-color; 
+}
+.wic-btn-theme:hover {
+    color: white;
+}
+
+.btn-theme{
+    background: $wiculty-theme-color;
+    color: white;
+    border: 1px solid $wiculty-theme-color;
+}
+.btn-theme:hover{
+    background: white;
+    color: $wiculty-theme-color;
+    border: 1px solid $wiculty-theme-color;
+}
+
+.btn-theme-bordered{
+    background: white;
+    color: $wiculty-theme-color;
+    border: 1px solid $wiculty-theme-color;
+}
+.btn-theme-bordered:hover {
+    background: $wiculty-theme-color;
+    color: white;
+}
+.avatar-bg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1.8em;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 1em;
+    border: 1px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+body {
+    padding:0px !important;
+    // background: $body-color !important;
+}
+.white-text {
+    color: white;
+}
+.yellow-text{
+    color: $yellow !important;
+}
+.yellowFloracent-text{
+    color: #f5f807 !important;
+}
+.lylac-text{
+    color: $lylac !important;
+}
+.blue-text{
+    color: #1780c9 !important;
+}
+.mist{
+    opacity: 0.5;
+}
+.mauto{
+    margin: 0 auto;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.top-banner-sec {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    flex-direction: column;
+}
+
+.mt-20{
+    margin-top: $value-10 * 2 !important;
+}
+
+.mt-10{
+    margin-top: $value-10 !important;
+}
+
+.mb-20{
+    margin-bottom: $value-10 *2 !important;
+}
+
+.fullWidth{
+    width: 100%;
+    .form-group{
+        width: 100%;
+    }
+}
+
+.border-botton-right{
+    border-bottom-right-radius: 50px;
+}
+
+.padding0{
+    padding: 0px;
+}
+
+.bg-white{
+    background: $white !important;
+}
+
+.grey-white{
+    background: #ebebeb !important;
+}
+
+.invalid-feedback{
+    margin-top: 0px;
+}
+
+.form-group {
+    margin-bottom: 0.75rem;
+}
+ %review-arrow {
+    top: 90px;
+    position: absolute;
+    font-size: 3rem;
+    color: $wiculty-theme-color;
+};
+.reviewPrev {
+    text-align: left;
+    left: 0;
+    @extend %review-arrow;
+}
+
+.reviewNext {
+    text-align: right;    
+    right: 0;
+    @extend %review-arrow
+}
+
+.table-hovered {
+    tr:not(.disabled):hover {
+        cursor: pointer;
+        color: #004085;
+        background-color: #cce5ff !important;
+    }
+}
+
+.DD-dark-theme,
+.DD-dark-theme:focus,
+.DD-dark-theme:hover,
+.DD-dark-theme:active {
+    color: #fff;
+    background-color: transparent;
+    border-color: #6c757d;
+}
+.DD-white-theme,
+.DD-white-theme:focus,
+.DD-white-theme:hover,
+.DD-white-theme:active {
+    color: rgba(0,0,0,.7);
+    background-color: #fff;
+    border-color: rgba(0,0,0,0.3);
+}
+.DD-white-theme.disabled {
+    background-color: #e9ecef;
+    color: #495057;
+}
+.DD-white-theme.disabled:hover {
+    background-color: #e9ecef;
+    color: #495057;
+
+}
+.modal-hd-color {
+    color: #a63c18;
+}
+.modal-bg-white {
+    > .modal-content {
+        background: #fff;
+    }
+    .modal-header {
+        border-bottom: 1px solid #f6921e !important;
+    }
+}
+
+// <!--- reusable css properties --->
+
+.white-space-pre {
+    white-space: pre;
+}
+
+
+
+.text-gray {
+    color: #7F7F7F;
+}
+.arrow-prev, .arrow-next {
+    font-size: 24px;
+    color: #ff6f00;
+    font-weight: bold;
+}
+.vl {
+    border-left: 2px solid #ff6f00;
+    height: 60px;
+    margin: 5px;
+  }
+  // <!--- horizontal menu css End --->
+
+  // text-colors
+  .text-gray {
+      color: #7F7F7F;
+  }
+  .text-black {
+      color: #000000;
+  }
+.modal-white {
+    .modal-content {
+        background: white;
+    }
+}
+
+.badge-warning {
+    background-color: #EFAC49 !important;
+}
+
+/*Scss file imports */
+@import '../common/common';
+@import '../landing/landing';
+@import '../banner/banner';
+@import '../card/courseCard';
+@import '../marketingtag/marketingtag';
+@import '../allcourses/allcourses';
+@import '../registration/registration';
+@import '../myorders/myorders';
+@import '../country_dropdown/newCountry.scss';
+@import './generalMediaQuery.scss';

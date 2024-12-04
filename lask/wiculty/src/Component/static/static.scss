@@ -1,0 +1,117 @@
+
+.terms-conditions, .privacy-policy {
+    overflow-y: auto;
+    margin-top: 25px;
+    .bg-shadow {
+        box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.15);
+    }
+    .step-border {
+        border: 1px solid #bab7b7;
+    }
+    p, ul {
+        color: #555555;
+    }
+    .termsBody{
+        p{
+            width: 100%;
+        }
+        h3 {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.contact-us-container {
+    .contactus-card {
+        text-align: center;
+        .icon-circle {
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #ff6f00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg {
+                font-size: 24px;
+                color: #fff;
+            }
+            &:hover {
+                background: #fff;
+                border: 1px solid #ff6f00;
+                svg {
+                    color: #ff6f00;
+                }
+            }
+        }
+        h5 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .desc {
+            line-height: 1.5;
+            min-height: 6rem;
+        }
+        .contactus-text {
+            color: #ff6f00;
+            a {
+                color: #ff6f00;
+            }
+            font-weight: bold;
+        }
+    }
+    .header-section{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 300px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    .contactUsBanner{
+        min-height: 450px;
+    }
+    .contact-us-form {
+        max-width: 600px;
+        margin: 0 auto;
+        #enquiry-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .enquiryCountryDd {
+            .mainwrapper {
+        .header {
+            height: 38px;
+        }
+            }
+        }
+        .NCPR-terms {
+            // color: #6c757d;
+        }
+    }
+}
+.custom-shadow {
+    box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 8px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:15px;
+}
+
+
+.office-addess-section {
+    margin: 20px 0;
+}
+.enquiryButtons {
+    margin: 0 auto;
+    text-align: center;
+}
+// Mobile
+@media only screen and (max-width: 767px) {
+    .annexure-container{
+        margin-left: -30px;
+        margin-right: -20px;
+    }
+}

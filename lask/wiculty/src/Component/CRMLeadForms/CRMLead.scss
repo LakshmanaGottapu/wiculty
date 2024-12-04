@@ -1,0 +1,51 @@
+.CODOSection_overview {
+    background: #fff;
+    padding: 1em;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-shadow: 1px 1px 6px #ccc;
+    box-shadow: 1px 1px 6px #ccc;
+    margin-bottom: 2em;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    input {
+        
+    }
+    // background: rgba(0,0,0,.03);
+}
+.event-form {
+    background-color: #fbfbfb;
+    border: solid 1px #bfbfbf;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 300px;
+    svg {
+        font-size: 1.5rem;
+    }
+}
+
+.special_offer_card {
+    min-height: 220px;
+    background-color: #1261AB;
+    .flag-text {
+        text-transform: uppercase;
+        background: linear-gradient(to bottom, #FA9A4B, #ffffff, #46c708);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    ul {
+        list-style-type: none;
+        // padding-inline-start: 20px;
+        li::before {
+            content: "\2022";
+            color: #ff6f00;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+          }
+    }
+}

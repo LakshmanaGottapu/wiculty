@@ -1,0 +1,400 @@
+@import '../scss/global';
+.lms-page {
+    height: calc(100vh - 67px);
+    .lms-page-sidebar {
+        display: flex;
+        width: 345px;
+        height: calc(100vh - 67px);
+        margin-left: 0;
+        background: #3a3a3a;
+        color: #fff;
+        font-size: 18px;
+        transition: margin .5s ease;
+        .border-bottom {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+        }
+        .content-modules {
+            font-size: 16px;
+            height: calc(100vh - 67px - 76px);
+            overflow-y: auto;
+            padding-bottom: 30px;
+        }
+        .icon-transform {
+            transition: transform .5s ease;
+        }
+        .module-chapter:hover,
+        .module-chapter.active, {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
+    .lms-navbar {
+        .nav-link {
+            color: #d5d2d2;
+            cursor: pointer;
+        }
+        .active {
+            color: white;
+            font-weight: bold;
+        }
+    }
+    .upcoming-container{
+        // box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+        padding-bottom: 10px;
+        p{
+          text-align: center;
+        }
+        p.tag{
+            font-size: 1rem;
+          }
+        button{
+          padding: 5px !important;
+        }
+        > div {
+            background-color: #ebebeb;
+        }
+        .row {
+          font-size: 0.85rem;
+          padding-top: 5px;
+          > div {
+              padding: 0 5px 0 5px !important;
+              p, a{
+                // font-weight: bold;
+              }
+              .classDate{
+                
+              }
+              .classTime{
+                color: #2269ba;
+              }
+              .classLink{
+                color: #ff6f00; 
+                cursor: pointer;
+              }
+          }
+        }
+    }
+}
+.lms-container {
+    min-height: 60vh;
+    position: relative;
+    .LMS-header-bar {
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+        margin: 0 0 10px 0;
+        background-color: #fff;
+        > div:nth-child(1) {
+            padding: 0px;
+            padding: 10px 5px;
+            height: 50px;
+            > div {
+                outline: none;
+                > span:nth-child(1) {
+                    outline: none;
+                    > img {
+                        width: 25px;
+                        margin: 0px 0px 0px 30px;
+                    }
+                }
+                > span:nth-child(2) {
+                    margin: 0 10px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                > img {
+                    width: 25px;
+                    margin: 0px 0px 0px 30px;
+                }
+            }
+        }
+        #LMSRightPanel {
+            padding: 0px;
+            padding: 10px 5px;
+            height: 50px;
+            > div {
+                outline: none;
+                > span:nth-child(1) {
+                    outline: none;
+                    cursor: pointer;
+                    > img {
+                        width: 20px;
+                        margin: 0px 0px 0px 30px;
+                    }
+                }
+                > span:nth-child(2) {
+                    margin: 0 10px;
+                    font-size: 18px;
+                }
+                > img {
+                    width: 25px;
+                    margin: 0px 0px 0px 30px;
+                }
+            }
+        }
+    }
+    .LMS-view {
+        .LMS-right-panel {
+            padding: 15px 0;
+            // min-height: 100vh;
+        }
+        .LMS-left-panel {
+            height: calc(100vh - 170px);
+            padding: 15px;
+        }
+        .LMS-right-panel, .LMS-left-panel {
+            border: 1px solid gainsboro;
+            color: #6d6d6d;
+            opacity: 1;
+            transition: 0.5s;
+            background-color: #fff;
+        }
+
+        .LMS-right-panel.full-screen,
+        .LMS-left-panel.full-screen {
+            display: none;
+        }
+    
+        .LMS-middle-panel {
+            // height: calc(100vh - 170px);
+            // overflow-y: auto;
+            position: relative;
+            // border: 1px solid gainsboro;
+            margin: 0px 40px;
+            padding: 0px;
+            // background-color: #fff;
+            .screen-footer {
+                position: fixed;
+                bottom: 0%;
+                background: #272727;
+                opacity: 0.9;
+                width: 100%;
+                height: 50px;
+                padding: 5px;
+                .full-screen, .exit-full-screen {
+                    position: absolute;
+                    left: 0%;
+                    background: #272727;
+                    opacity: 0.9;
+                    font-size: 20px;
+                    font-style: italic;
+                    outline: none;
+                    cursor: pointer;
+                    padding: 5px;
+                    > img {
+                        width: 20px;
+                        margin: 0px 0px 0px 30px;
+                        transition: all 0.5s ease;
+                    }
+                }
+                .full-screen:hover, .exit-full-screen:hover {
+                    // transform: scale(1.2);
+                    > img {
+                        width: 25px;
+                        margin: 0px 0px 0px 30px;
+                        transition: all 0.5s ease;
+                    }
+                }
+            }
+            
+        }
+        .LMS-middle-panel.full-screen {
+            margin: 5px;
+            min-height: 60vh;
+        }
+        .LMS-right-panel.offerBanner {
+            // top: 75px;
+        }
+        .LMS-right-panel {
+            position: absolute;
+            top: 0;
+            width: 25%;
+            height: 100%;
+            background-color: #f3f6f8;
+            border: 1px solid gainsboro;
+            color: #6d6d6d;
+            z-index: 1;
+            right: 0;
+            transition: 0.5s;
+            overflow-y: auto;
+            .left-panel-toggle {
+                position: absolute;
+                top: 5%;
+                right: 5%;
+                outline: none;
+            }
+            .LMS-right-scroll {
+                // height: 800px;
+                height: calc(100vh - 250px);
+                overflow-y: auto;
+                > div {
+                    // border-bottom: 1px solid darkgray;
+                }
+            }
+        }
+    
+        .LMS-right-panel.hide {
+            width: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+    }
+    p.title{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+        // background-color: $mellow-orange;
+        height: 50px;
+        // border-top: 1px solid darkgray;
+        border-bottom: 1px solid darkgray;
+        > span {
+            outline: none;
+            cursor: pointer;
+            line-height: 2.5;
+            // color: #fff;
+            color: #6d6d6d;
+          > img {
+              width: 25px;
+              margin: 0px 20px 0px 0px;
+          }
+        }
+      }
+    .upcomingContainer{
+        // box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+        padding-bottom: 10px;
+        p{
+          text-align: center;
+        }
+        p.tag{
+            font-size: 1rem;
+          }
+        button{
+          padding: 5px !important;
+        }
+        > div {
+            background-color: #ebebeb;
+        }
+        .row {
+          font-size: 0.85rem;
+          padding-top: 5px;
+          > div {
+              padding: 0 5px 0 5px !important;
+              p, a{
+                // font-weight: bold;
+              }
+              .classDate{
+                
+              }
+              .classTime{
+                color: #2269ba;
+              }
+              .classLink{
+                color: #ff6f00; 
+                cursor: pointer;
+              }
+          }
+        }
+    }
+    
+    .attendanceContainer{
+      // box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+      padding: 0 0 10px 0;
+      text-align: center;
+      .title{
+        font-size: 1rem;
+        span{
+          font-weight: bold;
+          font-size: 1.2rem;
+        }
+      }
+      .batchDetails{
+        span{
+          color: #e9780a;
+          text-transform: capitalize;
+        }
+      }
+      .viewDetails{
+        color: #0752fc;
+        // font-weight: bold;
+      }
+    }
+    .certificate-container {
+     // box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+      text-align: center;
+      margin-bottom: 100px;
+      button {
+          margin: 10px;
+      }
+    }
+}
+    
+
+.quizTitle{
+    background: #000000;
+    p{
+        color: #ffffff;
+        font-size: 1.4rem;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
+.questionsRow {
+    background: #ffffff;
+    border-radius: 13px;
+    width: 80%;
+    margin: 20px auto 20px auto;
+    box-shadow: 1.4px 1.4px 3px 0 rgba(35, 31, 32, 0.59);
+    .questionContainer{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        p{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+    }
+    .descriptionContainer{
+        p{
+            font-style: italic;
+        }
+    }
+}
+
+.quizFooter {
+    padding-bottom: 50px;
+    button{
+      position: absolute;
+      right: 120px;
+    }
+    .fullWidth{
+        width: 100%
+    }
+}
+.lms-container.offerBaner {
+    .LMS-header-bar {
+        > div:nth-child(1) {
+            padding: 25px 5px;
+            height: 70px;
+        }
+        > div:nth-child(2) {
+            padding: 20px 5px;
+            height: 70px;
+        }
+    }
+}
+
+.rightPanelInAnim {
+    -webkit-animation: fadeInRight .7s;
+       -moz-animation: fadeInRight .7s;
+        -ms-animation: fadeInRight .7s;
+         -o-animation: fadeInRight .7s;
+            animation: fadeInRight .7s;
+}
+
+.rightPanelOutAnim {
+    -webkit-animation: fadeOutRight .7s;
+       -moz-animation: fadeOutRight .7s;
+        -ms-animation: fadeOutRight .7s;
+         -o-animation: fadeOutRight .7s;
+            animation: fadeOutRight .7s;
+}
+
+@import './LMSMedia.scss';

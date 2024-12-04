@@ -1,0 +1,21 @@
+.nav-link > a {
+    color: white;
+  }
+  .nav-link > a:hover {
+    color: #007bff;
+  }
+  .profile {
+    .btn-secondary {
+      background-color: transparent;
+      border: 0px;
+      padding: 0px;
+      text-decoration: none;
+      margin: 0px 0px 0px 10px;
+    }
+  }
+  .customNav{
+    background-color: #272c48;
+  }
+
+  /*perticular section medai query import*/
+@import './navBarMediaQuery.scss';

@@ -1,0 +1,74 @@
+@media only screen and (min-width: 991px) {
+    // slick default styles
+    .slick-prev {
+      left: -35px !important;
+    }
+  
+    .slick-next {
+      right: -35px !important;
+    }
+    .Toastify__toast-container--top-right {
+      top: 8rem !important;
+    }
+    .toast {
+      top: 20rem;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    // slick default styles
+    .slick-prev {
+      left: -15px !important;
+    }
+  
+    .slick-next {
+      right: -5px !important;
+    }
+  
+    .slick-list {
+      width: 90%;
+      margin: 0 auto !important;
+    }
+  
+    .landing-banners {
+      .slick-list {
+        width: 100%;
+      }
+      .slick-next {
+        right: 5px !important;
+      }
+      .slick-prev {
+        left: 5px !important;
+      }
+    }
+  
+    .matrix-section {
+        .col {
+            flex: 0 0 50%;
+        }
+    }
+  
+    .wiculty-tab-pills {
+      .nav-tabs {
+        .nav-item {
+          flex: 0 0 50%;
+          margin-bottom: 10px;
+          .nav-link {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    .toast {
+      top: 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .toast {
+      top: 8rem;
+    }
+  }

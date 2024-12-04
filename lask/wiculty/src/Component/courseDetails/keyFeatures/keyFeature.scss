@@ -1,0 +1,21 @@
+.keyfeature-item {
+    .icon {
+        flex: 0 0 50px;
+        text-align: center;
+        background:  #e9ecef;
+        transition: all .3s ease-in;
+        svg {
+            width: 20px;
+            color:  orangered;;
+            transition: all .3s ease-in;
+        }
+    }
+    &:hover {
+        .icon {
+            background: #ff6f00;;
+            svg {
+                color: white;;
+            }
+        }
+    }
+}

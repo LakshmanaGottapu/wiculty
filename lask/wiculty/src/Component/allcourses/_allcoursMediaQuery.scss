@@ -1,0 +1,59 @@
+/* 
+    @- Allcourses Page Media Query Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+@media(max-width:1200px){
+    .inner_2{
+    .partition_1{
+        font-size: 16px;
+    }
+    .partition_2{
+        font-size: 14px;
+        
+    }
+    .partition_3{
+        p{
+            font-size: 12px !important;
+        }
+    }
+    .courseContent{
+        font-size: 14px;
+    }
+    .bottomContent{
+     .getMore{
+        right: 3% !important;
+     }
+     .socialTagalgn{
+        margin-right:$value-5 * 2 !important;
+        span{
+            font-size: 12px;
+        }
+        .fa-tv
+        {
+            margin-right: $value-5 !important;
+        }
+        .fa-clock
+        {
+            margin-right: $value-5 !important;
+        }
+        .fa-folder
+        {
+            margin-right: $value-5 !important;
+        }
+     }
+    }
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+    .allCourses .card .outer .inner_2 {
+        display: none;
+    }
+    .marketingTagThirdSec p, .marketingTagFourthSec p{
+        font-size: 1rem;
+    }
+}

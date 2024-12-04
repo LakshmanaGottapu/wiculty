@@ -1,0 +1,104 @@
+.nurture-container {
+    min-height: 640px;
+    padding: 20px 20px 10px 20px;
+
+    .nurture-heading {
+        text-align: center;
+    }
+
+    .nurture-item-link {
+        color: inherit;
+    }
+    
+    .nurture-card {
+        padding: 10px;  
+        a {
+            background: #fefefe;
+            border: 2px solid transparent;
+            min-height: 200px;
+            width: 100%;
+        }
+
+        .nurture-img-container {
+            max-width: 120px;
+        }
+
+        .nen {
+            // background: rgba(0, 0, 0, 0.2);
+            padding: 3px 0;
+        }
+
+        .nei-container {
+            .nei {
+                >.nei-number {
+                    font-size: 1.5rem;
+                }
+    
+                >.nei-text {
+                    font-size: 1rem;
+                    opacity: .8;
+                }
+            }
+        }
+    }
+
+    .nurture-footer {
+        hr {
+            background: #fff;
+            border: 1px solid rgba(0,0,0,.1);
+        }
+        .nurture-download {
+            // flex: 0 0 13%;
+            // max-width: 13%;
+            text-align: center;
+            .nurture-download-button {
+                color: #fff;
+                background: #ff6f00;
+                min-height: 40px;
+                border-radius: 20px;
+                border: 0;
+                font-weight: bold;
+                padding: 5px 20px;
+            }
+            .nurture-download-button:hover {
+                color: #000;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+   
+}
+
+@media(max-width:991px){
+}
+// Mobile
+@media only screen and (max-width: 767px) {
+    .nurture-container {
+        .nurture-card {
+            margin: 0px 0px 30px 0px;
+
+            .nurture-img-container {
+                max-width: 100%;
+                text-align: center;
+
+                .nurture-img {
+                    height: 70px;
+                    width: 70px;
+                }
+            }
+            .course-info {
+                text-align: center;
+                flex-basis: auto;
+            }
+            .nei {
+                margin-bottom: 10px;
+            }
+            .nurture-download {
+                margin: 0 auto;
+                max-width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 991px) {
+    .lms-module-container {
+        border: 1px solid #e1e0e0;
+        .lms-header {
+            margin: 0;
+            padding: 5px 10px;
+            align-items: center;
+        }
+        .module-container {
+            height: auto;
+            padding: 0 10px;
+            margin-bottom: 50px;
+        }
+        .lms-search,
+        .module-container {
+            transition: all .81s ease;
+        }
+    }
+}

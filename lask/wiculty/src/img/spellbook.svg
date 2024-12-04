@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83.434" height="83.434" viewBox="0 0 83.434 83.434">
+    <defs>
+        <style>
+            .cls-1{fill:#f25a6b}.cls-2{fill:#c83c50}.cls-3{fill:#7a3eb5}.cls-4{fill:#4b1b7a}.cls-5{fill:#fff4f2}.cls-6{fill:#ffe4e0}.cls-7{fill:#fc0;font-size:17px;font-family:Arial-BoldMT,Arial;font-weight:700}
+        </style>
+    </defs>
+    <g id="spellbook">
+        <path id="Path_15435" d="M83.433 41.717A41.717 41.717 0 1 1 41.717 0a41.716 41.716 0 0 1 41.716 41.717zm0 0" class="cls-1" data-name="Path 15435"/>
+        <path id="Path_15436" d="M136.946 116.254l-10.075-10.076-.724.994-10.1-10.1-8.623 23.114-14.007-14.008-.12.16L79 96.164l-5.275 6.724L92.512 123.8l-28.074 19.981 18.01 18.01a41.733 41.733 0 0 0 54.5-45.537zm0 0" class="cls-2" data-name="Path 15436" transform="translate(-53.938 -80.493)"/>
+        <path id="Path_15437" d="M103.788 157.621a8.135 8.135 0 0 0-8.134 8.135 8.135 8.135 0 0 0-8.134-8.135H64.437v37.6h62.432v-37.6zm0 0" class="cls-3" data-name="Path 15437" transform="translate(-53.937 -131.936)"/>
+        <path id="Path_15438" d="M256 195.224h31.216v-37.6h-23.082a8.135 8.135 0 0 0-8.134 8.132zm0 0" class="cls-4" data-name="Path 15438" transform="translate(-214.283 -131.936)"/>
+        <path id="Path_15439" d="M121.918 145.559a7.166 7.166 0 0 0-7.166 7.166 7.165 7.165 0 0 0-7.166-7.166H87.255v35.994h55v-35.994zm0 0" class="cls-5" data-name="Path 15439" transform="translate(-73.036 -121.839)"/>
+        <path id="Path_15440" d="M256 181.552h27.5v-35.994h-20.334a7.166 7.166 0 0 0-7.166 7.166zm0 0" class="cls-6" data-name="Path 15440" transform="translate(-214.283 -121.838)"/>
+        <text id="_" class="cls-7" data-name="?" transform="translate(20.155 24.777)">
+            <tspan x="-5.192" y="0">?</tspan>
+        </text>
+        <text id="_2" class="cls-7" data-name="?" transform="translate(58.45 24.777)">
+            <tspan x="-5.192" y="0">?</tspan>
+        </text>
+        <text id="_3" class="cls-7" data-name="?" transform="translate(27.977 51.828)">
+            <tspan x="-5.192" y="0">?</tspan>
+        </text>
+    </g>
+</svg>

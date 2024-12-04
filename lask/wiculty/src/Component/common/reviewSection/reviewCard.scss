@@ -1,0 +1,113 @@
+.review-card-container {
+    .video-review-card {
+        .course-video {
+            position: relative;
+            width: 100%;
+            // min-height: 150px;
+            img {
+              width: 100%;
+              max-width: 350px;
+            }
+            .play-button {
+              position: absolute;
+              bottom: 20px;
+              right: 20px;
+              border-radius: 50%;
+              padding: 10px;
+              background: white;
+              width: 45px;
+              height: 45px;
+              color: black;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              svg {
+                width: 20px;
+              }
+            }
+        }
+        
+    }
+    .slick-initialized {
+        .slick-slide {
+            padding: 10px 20px;
+        }
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        color: #ff6f00;
+        font-size: 24px;
+    }
+    .review-card {
+        background: white;
+        padding: 10px;
+        min-height: 245px;
+        border-radius: 10px;
+    }
+    .author-title {
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .review-desc {
+        padding: 10px;
+        line-height: 1.5;
+        font-size: 0.9rem;
+
+        > .see-more {
+            color: #346db6;
+            margin: 0px 0px 0px 5px;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+    .alice-carousel {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .alice-carousel__dots-item.__active {
+        background: linear-gradient(to left, #7a1f52, #da4a52);
+        width: 40px;
+        height: 5px;
+    }
+    .alice-carousel__dots-item {
+        cursor: pointer;
+        border-radius: 10px;
+        width: 40px;
+        height: 5px;
+    }
+}
+
+.avatar {
+    display: inline-block;
+    vertical-align: top;
+}
+
+[data-letters]:before {
+    content:attr(data-letters);
+    display:inline-block;
+    font-size:1em;
+    width:2.5em;
+    height:2.5em;
+    line-height:2.5em;
+    text-align:center;
+    border-radius:50%;
+    background:#f66f04;
+    vertical-align:middle;
+    margin-right:1em;
+    color: white;
+}
+
+@media (mx-width: 991px){
+    .review-card-container {
+        width: 90%;
+        margin: 0 auto;
+
+        .slick-next {
+            right: -5px;
+        }
+        .slick-prev {
+            left: -15px;
+        }
+    }
+}

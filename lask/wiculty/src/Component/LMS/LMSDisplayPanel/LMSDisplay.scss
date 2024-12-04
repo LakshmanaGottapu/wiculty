@@ -1,0 +1,15 @@
+.lms-display-container {
+    margin: 0 0;
+    iframe  {
+        height: 500px;
+    }
+    
+    @media (min-width: 769px) {
+        iframe {
+            position: absolute;
+            height: 100%;
+            overflow: hidden;
+            top: 10px;
+        }
+      }
+}

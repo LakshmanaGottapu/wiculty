@@ -1,0 +1,19 @@
+/* 
+    @- Course Card Media Query Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+@media(max-width:1200px){
+.courseAdvisorCard{
+    .card-body{
+        img{
+            width: 66%;
+            height: 43%;
+            bottom: 40%;
+            left: 17%;
+        }
+        }
+    }
+}

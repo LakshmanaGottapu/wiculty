@@ -1,0 +1,26 @@
+.charming-partners-container {
+    .logos-container {
+        z-index: 10;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .partners-logo {
+            width: 75px;
+            height: 75px;
+            z-index: 5;
+            box-shadow: rgb(170, 170, 170) 1px 4px 6px 1px;
+            border-radius: 50%;
+            transition: all 0.25s ease 0s;
+            &:hover {
+                transform: scale(1.2);
+            }
+            img {
+                z-index: 1;
+                transform: scale(1);
+                border-radius: 50%;
+            }
+        }
+    }
+    
+}

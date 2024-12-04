@@ -1,0 +1,107 @@
+.refer-earn-steps {
+    .col-sm-12 {
+        .media {
+            svg {
+                font-size: 48px;
+                width: 48px;
+                path {
+                    fill: #329ac2;
+                }
+            }
+        }
+    }
+}
+.reffer-conatiner{
+    // background: #ffffff;
+    .header-section{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+        text-align: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        #tag-line {
+            color: white;
+            > p:nth-child(1){
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            > p:nth-child(2){
+                font-size: 1.25rem;
+            }
+        }  
+    }
+    .refferTitle{
+        text-align: center;
+        p{
+            margin: 15px auto 15px auto;
+            font-size: 1.25rem;
+        }
+    }
+    .earningTracker{
+        width: 85%;
+        margin: 15px auto 0 auto;
+        div{
+            min-height: 150px;
+        }
+        .earnings{
+            background: rgba(255, 111, 0, .8);;
+            text-align: center;
+            p{
+                margin: 0 auto;
+                color: #fff;
+                margin: 20px auto;
+                font-weight: bold;
+            }
+            > p:nth-child(1){
+                font-size: 1.25rem;
+            }
+            > p:nth-child(2){
+                font-size: 1.25rem;
+            }
+            > p:nth-child(3){
+                font-size: 1.25rem;
+                color: #ffffff;
+            }
+        }
+        .listing{
+            text-align: center;
+        }
+    }
+    .referText{
+        width: 85%;
+        margin: 15px auto 0 auto;
+        .title{
+            margin: 15px auto !important;
+        }
+        ul{
+            margin: 0 auto;
+        }
+    }
+    .freeCourseSec .freeCourseSecAlgn .freeCourseSecCardAlgn:after {
+        background: #f6f6f8;
+    }
+}
+
+/*my referal css*/
+
+.public-refer-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    text-align: center;
+}
+
+
+.redeem-wallet {
+    .redeem-submit {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+}

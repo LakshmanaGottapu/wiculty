@@ -1,0 +1,15 @@
+.faqs-menu-container {
+  width: 100%;
+  min-height: 380px;
+
+  .faqs-title {
+    border-bottom: 2px solid #f6921e;
+    width: 100px;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    .faqs-text {
+      width: 100%;
+    }
+  }
+}

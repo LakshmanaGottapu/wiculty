@@ -1,0 +1,128 @@
+/*
+    @- Global variables are being declared of scss.
+
+            %- Only these Global values that is being defined in this scss are permitted to be used in the product or declare here
+               and use in its respective component file.
+            %- To use different styles never change global variable value.
+               Create a new class, and by using simple math alter your class with global size.
+
+        $- Global color decleration starts
+
+            %- Only the colors defined in this css are permitted to be used in the product.
+            %- To use different Colors never change global variable Color value.
+
+*/
+$body-color: white;
+$blue:#007bff;
+$blueBack: #50b5ed;
+$light-blue:#0485e8;
+$font-blue:#315170;
+$light-tan-blue:#0e90ff;
+$indigo:#6610f2;
+$cyan-ligth:#00bfb5;
+$purple:#6f42c1;
+$pink:#e83e8c;
+$dusky-light-blue:#00b9ff;
+$red:#dc3545;
+$wiculty-theme-color: #ff6f00;
+$wiculty-blue: #346db6;
+$mellow-orange: #fa9642;
+$orange:#fd7e14;
+$yellow:#f6921e;
+$green:#28a745;
+$teal:#20c997;
+$cyan:#17a2b8;
+$white:#fff;
+$course-tab-color:#f66d1e;
+$gray:#6c757d;
+$gray-dark:#343a40;
+$primary:#007bff;
+$secondary:#6c757d;
+$lylac:#a394e1;
+$light-tan-gray:#efefef;
+$success:#28a745;
+$green:#23b67f;
+$black:#272727;
+$light-tan-white:#f3f6f8;
+$light-white:#f6f5f5;
+$info:#17a2b8;
+$dark-tan-gray:#484848;
+$warning:#ffc107;
+$light-tan-black:#848181;
+$danger:#dc3545;
+$offer-banner-color:#33b08e;
+$light:#f8f9fa;
+$font-color-blue:#336da5;
+$tany-blue:#00dcff;
+$tan-light-blue:#36aefc;
+$font-gray:#8a8888;
+$font-dark-color-blue:#0c5397;
+$fa-icon-blue:#2f86eb;
+$brown:#7a1f52;
+$light-font-blue:#21b3fc;
+$dark:#343a40;
+$dark-red:#f93940;
+$light-gray:#bebebe;
+$pale-dark-blue:#00a6df;
+$pale-light-blue:#e7f4fc;
+$conatct-us-page-blue-color:#3ab5d4;
+$light-tan-yellow:#fff594;
+$light-tan-gray:#f6f6f6;
+$border-bottom-color:rgba(0, 0, 0, 0.16);
+$theme-color:linear-gradient(to right, #7a1f52, #da4a52);
+$landing-page-navbar-color: linear-gradient(179deg, #ffffff, #f5f5f2);
+$landig-page-banner-sec-color:linear-gradient(179deg, #F8F5FF, #f5f5f2);
+$contact-sec-color:linear-gradient(278deg, #0bcbc3, #276de5 60%, #0ac7cd);
+$corse-page-topbanner-sec-color: linear-gradient(101deg, #23b67f, #0485e8);
+$course-page-tool-covered-sec: linear-gradient(124deg, #006fff, #00bfb5);
+$profile-color:linear-gradient(122deg, #006fff, #00cbff);
+$mycourse-card-color: linear-gradient(103deg, #0077a4, #056588);
+$mycourse-top-sec-button:linear-gradient(115deg, #00dcff, #00bfb5);
+$mycourse-second-sec: linear-gradient(101deg, #b3ddf8, #9efffa);
+$mycourse-third-sec: linear-gradient(101deg, #81fff8, #a4f2ff);
+$contact-us-page-second-sec-color:linear-gradient(to bottom, #19c4be, #3ab5d4);
+$course-card-first-sec:linear-gradient(241deg, #beedff, #d2f5f1);
+$caourse-sec-first-card:linear-gradient(to bottom, #0090ff, #0c72c1);
+$card-anim-color:rgba(51, 51, 51, 0.95);
+$second-sec-marktng-tag:linear-gradient(to right, #00b9ff, #61c8c1);
+$free-course-tag-color:linear-gradient(91deg, #8bdbf9, rgba(255, 255, 255, 0));
+$aggregration-first-color:#bafef2;
+$aggregration-secnd-color:#4cabf3;
+$aggregration-third-color:#f9e07a;
+$aggregration-fourth-color:#c7fc99;
+$aggregration-fifth-color:#ff6d6d;
+$aggregration-sixth-color:#fcc396;
+$gliph-green-color:#51a888;
+$gliph-dark-green-clor:#38929a;
+$gliph-dark-purple:#733999;
+$course-cat-color: #f7f7f8;
+$pale-yellow:#FEB561;
+$all-courses-page-card-image-color: linear-gradient(305deg, #0bcbc3, #00b9ff);
+
+
+
+/*Global font size declaration*/
+$global_font_size:1rem;
+$global_font_heading:2.38rem;
+$global_font_weight:400;
+
+/*Global padding size and margin declaration*/
+$value-5:5px;
+$value-10:10px;
+
+
+/*GLobal images decleration*/
+$home_page_top_banner:url('../../img/Home_baner.svg');
+$partners_sec_image:url('../../img/instructor-led.jpg');
+$about_us_banner_img:url('../../img/About_Us.jpg');
+
+
+/*GLobal banner image height*/
+$default_banner_height:450px;
+
+/*Box shadows */
+$card-shadow:1px 6px 6px 2px rgba(0, 0, 0, 0.18);
+$generalised-cont-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+$generalised-course-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+$revie-card-box-shadow: 0 0 30px 0 rgba(172, 172, 172, 0.16);
+/*Unset styles*/

@@ -1,0 +1,41 @@
+.annexure-tab {
+    min-height: 50px;
+    padding: 5px 10px;
+    border: 1px solid #f3f6f8;
+    box-shadow: 0 2px 4px 0 rgba(48,56,97,.2);
+    background: rgba(0,155,255,.05);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.annexure-tab >p {
+  margin: 0px;
+}
+.annexure-tab:hover {
+  color: #fff;
+  background: #4D4D4B;
+}
+.annexure-tab.active {
+  color: #fff;
+  background: #4D4D4B;
+}
+.annexure-title {
+  display: flex;
+}
+.annexure-title > p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.plus, .minus {
+  color: #ff6f00;
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 20px;
+  border: 1px solid #00cbff;
+  margin-bottom: 0;
+}

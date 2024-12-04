@@ -1,0 +1,174 @@
+{
+    "data": {
+        "course": {
+            "id": 4,
+            "course_group_id": 4,
+            "unique_title": "Best Pyhton online Course",
+            "course_title": "Python",
+            "display_title": "Python",
+            "course_slug": "python",
+            "roadmap_url": "https://s3.ap-south-1.amazonaws.com/test-gamutgurus/course/2tl0p.png",
+            "analytica_url": "https://s3.ap-south-1.amazonaws.com/test-gamutgurus/course/ywwtv.png",
+            "career_prospect_url": "https://s3.ap-south-1.amazonaws.com/test-gamutgurus/course/7izje.png",
+            "short_description": "<p>Best Pyhton online Course</p>",
+            "description": "<p>Best Pyhton online Course</p>",
+            "business_unit": 1,
+            "course_image": "https://s3.ap-south-1.amazonaws.com/test-gamutgurus/course/2q1th.jpg",
+            "rid": "AQBDJqz1oKQd",
+            "fid": "AIAAsiuPsDxM",
+            "rating": "5.0",
+            "sort_order": 1,
+            "is_selfpaced": 0,
+            "course_highlighter": {},
+            "related_courses": [],
+            "no_of_learners": 6000,
+            "sections": {
+                "faqs": {
+                    "id": 1,
+                    "title": "Projects",
+                    "short_description": "<p>Projects</p>",
+                    "section_details": [
+                        {
+                            "id": 26,
+                            "title": "Hello world",
+                            "description": "<p>Description about the project</p>",
+                            "hasSubsection": 1,
+                            "sortOrder": 3,
+                            "duration": 1,
+                            "sub_sections": [
+                                {
+                                    "id": 1,
+                                    "title": "Sub section1",
+                                    "description": "Sub section1 description update"
+                                },
+                                {
+                                    "id": 5,
+                                    "title": "sub section2",
+                                    "description": "sub section2 description"
+                                },
+                                {
+                                    "id": 6,
+                                    "title": "sub section3",
+                                    "description": "sub section3 Description"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "title": "Hello world1",
+                            "description": "<p>Description about the project</p>",
+                            "hasSubsection": 1,
+                            "sortOrder": 3,
+                            "duration": 1,
+                            "sub_sections": [
+                                {
+                                    "id": 7,
+                                    "title": "Sub section1",
+                                    "description": "Sub section1 description update"
+                                },
+                                {
+                                    "id": 8,
+                                    "title": "sub section2",
+                                    "description": "sub section2 description"
+                                },
+                                {
+                                    "id": 9,
+                                    "title": "sub section3",
+                                    "description": "sub section3 Description"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "projects": {
+                    "id": 2,
+                    "title": "FAQs",
+                    "short_description": "<p>Frequently asked questions</p>",
+                    "section_details": [
+                        {
+                            "id": 27,
+                            "title": "Questions",
+                            "description": "<p>FAQs</p>",
+                            "hasSubsection": 0,
+                            "sortOrder": 2,
+                            "duration": 2,
+                            "sub_sections": null
+                        }
+                    ]
+                },
+                "curriculum": {
+                    "id": 3,
+                    "title": "Curriculum",
+                    "short_description": "<p>Course Curriculum</p>",
+                    "section_details": [
+                        {
+                            "id": 29,
+                            "title": "DevOps - A Big picture",
+                            "description": "<ul><li>What is DevOps, Acronym What is Dev &amp; Ops?</li><li>Acronym: Dev + Ops – misconceptions.</li><li>Gamut of Devops Tools overview</li><li>End-to-End DevOps work-flow</li><li>Roles and Responsibilities of DevOps Resource</li><li>Who can learn DevOps?</li><li>Pre-requisites for DevOps</li><li>Importance of DevOps Practices in Software Development.</li><li>DevOps in Realtime and it’s goals.</li><li>SDLC models, Agile and DevOps</li><li>History of DevOps</li><li>Important terminology</li><li>Opportunities, Trends and Future of DevOps</li><li>Overview of: Version Control mechanism, Build and Deployment Process, Continuous Integration and Deployment, Configuration management, Containerization, Virtualization, AWS Cloud platform, etc.. </li><li>Role of Cloud platforms in DevOps</li><li>DevOps and Cloud. Is Cloud + something is DevOps?</li></ul>",
+                            "hasSubsection": 1,
+                            "sortOrder": 4,
+                            "duration": 5,
+                            "sub_sections": []
+                        },
+                        {
+                            "id": 31,
+                            "title": "Git - Version Control System",
+                            "description": "",
+                            "hasSubsection": 1,
+                            "sortOrder": 4,
+                            "duration": 8,
+                            "sub_sections": [
+                                {
+                                    "id": 7,
+                                    "title": "Chapter 1 - Version Control Systems Overview",
+                                    "description": "<ul><li>Introduction to Version Control Systems (VCS)</li><li>Different Version Control Systems in the market</li><li>Evolution of VCS’s</li><li>Role of VCS’s in Source code management</li><li>Version Control System Goals</li><li>Features of Version Control Systems</li><li>Role of Version Control System in DevOps</li><li>What is Git and why Git? Role of Git in DevOps</li><li>Role and Responsibilities of DevOps Engineer in Git</li><li>Role of Source code Versioning in release management</li><li>Git Features. CVCS Vs DVCS</li><li>Version Control Systems Principles</li></ul>"
+                                },
+                                {
+                                    "id": 8,
+                                    "title": "Chapter 2: Getting started with Git",
+                                    "description": "<ul><li>Git Basics</li><li>Git Architecture</li><li>Evolution of VCS’s</li><li>Source code management with Git</li><li>End-to-End Git Work-flow at 10k foot</li><li>Git Vs SVN Vs other commercial VCS’s</li><li>Git Command Line &amp; GUI</li><li>On-premise Vs Hosted Git Solutions</li><li>Overview of GitHub, GitLab, Bitbucket , etc.</li></ul>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "course_price": {
+                "freeCourseList": [],
+                "price": [
+                    {
+                        "currencyId": 1,
+                        "currency": "INR",
+                        "currencySymbol": "₹",
+                        "discount": {
+                            "batch": [],
+                            "course": {
+                                "actual_course_price": 20000,
+                                "discounted_price": 20000,
+                                "applied_discount_ids": [],
+                                "applied_discount": []
+                            }
+                        }
+                    },
+                    {
+                        "currencyId": 2,
+                        "currency": "USD",
+                        "currencySymbol": "$",
+                        "discount": {
+                            "batch": [],
+                            "course": {
+                                "actual_course_price": 200,
+                                "discounted_price": 200,
+                                "applied_discount_ids": [],
+                                "applied_discount": []
+                            }
+                        }
+                    }
+                ]
+            },
+            "meta_info": {}
+        }
+    },
+    "status": 200,
+    "message": "Success"
+}

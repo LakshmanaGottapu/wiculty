@@ -1,0 +1,15 @@
+/*
+    @- Website main style desciption is given below
+        %- This is the main scss file where the components will be included.
+        %- For major Change of the component please look into their respective element file and add the subsequent changes.
+        %- This file imports major subsequent element and creates the class, never add class in the elemnet file for the creation
+           of the generalised component.
+*/
+
+/*Font style file import */
+
+@import './global';
+@import './general';
+@import './animations';
+@import './circle-progress';
+@import './best-practice-global'

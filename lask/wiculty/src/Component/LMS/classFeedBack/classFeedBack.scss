@@ -1,0 +1,31 @@
+.class-feedback-container {
+    
+}
+.modal {
+    .class-feedback {
+      width: 100%;
+      .modal-content {
+        width: 100% !important;
+        background-color: #fff;
+        background: snow;
+        margin: 0 auto;
+        background: white;
+        .modal-body {
+          padding: 0px;
+        }
+        .modal-header {
+          margin: 0px !important;
+          .class-feedback-title {
+            color: #1972C0;
+          }
+        }
+        .close-icon {
+            top: 0px;
+        }
+        #class-date {
+          font-size: 1.2rem;
+          padding: 0 10px;
+        }
+      }
+    }
+  }

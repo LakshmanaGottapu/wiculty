@@ -1,0 +1,197 @@
+@import '../scss/global';
+.order-summary-container {
+    .order-Summary-header {
+        height: 50px;
+        background-color: #f6921e;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 1;
+    }
+    .order-Summary-header img {
+        width: 120px;
+        margin: 10px 100px;
+    }
+    .order-Summary-body {
+        .product-section {
+            border-radius: 10px 0 0 10px;
+        } 
+        .order-section {
+            border-radius: 0 10px 10px 0; 
+        }
+        .product-info-text {
+            letter-spacing: 2px;
+        }
+        .course-info-container {
+            .course-img {
+                // text-align: center;
+                border-radius: .30rem 0 0 .30rem;
+                img {
+                    height: 140px;
+                }
+            }
+        }
+        /*free courses css start*/
+        .free-courses-container {
+            .courses-blog {
+                display: flex;
+                overflow: auto;
+                .course-imgs-container {
+                    border-radius: 10px;
+                    background-color: #fff;
+                    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                    border: solid 0.5px #707070;
+                    width: 200px;
+                    min-height: 150px;
+                    text-align: center;
+                    margin: 10px;
+                    cursor: pointer;
+                    img {
+                        margin: 5px;
+                        height: 90px;
+                        width: 90px;
+                        border-radius: 40px;
+                    }
+                }
+                .active {
+                    background-color: #d4d4d4
+                }
+            }
+            
+        }
+
+        /*price details css start*/
+        .price-info-container > div {
+            min-height: 300px;
+            .order-text.row {
+                border-radius: .30rem .30rem 0 0;
+            }
+            .price-fields {
+                hr {
+                    border: 1px solid #f6921e
+                }
+            }
+            .coupon-box {
+              span.input-group-text {
+                color: white;
+                background-color: #f6921e;
+              }
+              .promoCodeButton {
+                  border: 0px;
+                  box-shadow: 0 0;
+              }
+            }
+            .price-fields > div > h5 {
+                font-weight: normal;
+            }
+        }
+        /*payment details css start */
+        .payment-container > div {
+            min-height: 250px;
+        }
+        .payment-container {
+            .payment-info-text {
+                border-bottom: 2px solid #f6921e;
+                margin: 10px 10px 15px 0px;
+            }
+            .payment-modes {
+                text-align: center;
+                margin: 5px;
+                img {
+                    height: 50px;
+                }
+                svg {
+                    font-size: 2rem;
+                }
+            }
+            .payment-button {
+                text-align: center;
+                .text-danger.form-check {
+                    a {
+                        color: #dc3545!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.codeText {
+    float:left;
+    margin-right: 10px;
+    line-height: 40px;
+    color: red;
+    font-weight: bold;
+}
+#promoCode {
+    height: 40px;
+}
+
+.free-course-info {
+    > .modal-content {
+      width: 70% !important;
+      background-color: #f3f6f8;
+      background: snow;
+    }
+    .modal-title {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+.order-agree {
+    input {
+        top: 2px;
+    }
+    label {
+        // line-height: 20px;
+        // display: inline-flex;
+        // align-items: center;
+        // justify-content: center;
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .order-Summary-body > .row {
+        margin: 20px 100px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .order-agree {
+        input {
+            top: 0;
+        }
+    }
+}
+// Mobile 
+@media only screen and (max-width: 576px) {
+    .order-Summary-body > .row {
+        margin: 10px;
+    }
+    .order-summary-container .order-Summary-body .price-info-container > div .coupon-box {
+        margin: 0;
+    }
+    .payment-modes {
+        img {
+            width: 100%;
+        }
+    }
+    .free-course-info {
+        > .modal-content {
+          width: 100% !important;
+          background-color: #f3f6f8;
+          background: snow;
+        }
+      }
+}
+
+.av-submitted.av-invalid {
+    .shake-x {
+        -webkit-animation-name: shakeX;
+          animation-name: shakeX;
+      }
+}

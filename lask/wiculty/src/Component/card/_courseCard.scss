@@ -1,0 +1,128 @@
+/* 
+    @- Course card Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+
+/*Horizonatl Course Card styles*/
+// .horizantalCourseCard{
+//     // box-shadow: $generalised-cont-shadow;
+//     min-height: 300px;
+//     z-index: 10;
+//     @extend %no-border;
+//     cursor: pointer;
+//     // margin-bottom: $value-5 * 6; 
+//     border-radius: $value-10;
+//     .card-body{
+//         padding: 0;
+//     }
+// }
+
+.trend-card:after {
+    content: "";
+    height: 20px;
+    text-align: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.courseTitle{
+  top: 70px;
+  font-weight: bold;
+  font-size: 1.2rem !important;
+  background: none !important;
+  display: none;
+}
+.courseDuration{
+  top: 200px;
+  padding: 10px;
+  font-style: italic;
+//   font-size: 1.2rem !important;
+}
+.bg_height{
+  height:293px;
+}
+.homeCard{
+    .outer-div{
+        height: 420px;
+        overflow: hidden;
+        // padding: 10px;     
+        p{
+            // background-color: rgba(0, 0, 0, 0.5);
+            z-index: 0.5;
+            // position: absolute;
+            width: 100%;
+            // color: $white;
+         }
+    }
+    .inner-div
+    {
+         height: 100%;
+         width: 100%;
+         background-size: cover;
+         background-position: center;
+         transition: all 0.5s ease;
+         color: #000000;
+         background-color: #cccccc;
+    }
+    // .inner-div:hover
+    // {
+    //      transform: scale(1.2);
+    // }
+    .Demo__container{
+        .Demo__some-network{
+            cursor: pointer;
+            vertical-align: top;
+            display: inline-block;
+            margin-right: 0px;
+            text-align: center;
+            width: 32px;
+            .SocialMediaShareButton {
+                div{
+                    margin: 0px;
+                }
+            }            
+        }
+    }
+}
+
+.refer-course-cards {
+    .courseDuration {
+        font-size: 0.85rem !important;
+    }
+}
+
+/*Course Advisor Card*/
+.courseAdvisorCard{
+    @extend %no-border;
+    box-shadow: $generalised-cont-shadow;
+    border-radius: 10px;
+    .radientColor{
+        background: $aggregration-fourth-color;
+        height: ($value-5 * 33);
+        border-radius: 10px 10px 0 0;
+      
+    }
+    .card-body{
+        img{
+            width: 50%;
+            height: 43%;
+            position: absolute;
+            bottom: 34%;
+            left: 25%;
+        }
+    }
+}
+
+.card-trend {
+    // height: 100px;
+    color: #fff;
+    padding: 10px;
+    background: #ff6f00;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*media query for course card*/
+@import './coursecardmedia'; 

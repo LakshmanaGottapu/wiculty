@@ -1,0 +1,84 @@
+@import '../scss/global';
+@media only screen and (max-width: 991px) {
+  .lms-container {
+    min-height: calc(100vh - 64px);
+    .LMS-header-bar {
+      > div:nth-child(1) {
+        text-align: center;
+      }
+    }
+    .LMS-view {
+      .LMS-left-panel {
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100vw;
+        z-index: 1001;
+        overflow-y: auto;
+        transition: all 1s;
+        &.show-left-panel {
+          left: 0vw;
+        }
+
+        .lms-module-container {
+          padding-bottom: 100px;
+          border-width: 0;
+          .lms-search {
+            width: 95%;
+            margin: 0 auto;
+          }
+          .module-container {
+            .card {
+              padding-bottom: 10px;
+            }
+            .module-panel {
+              p {
+                padding: 0 5px;
+              }
+            }
+          }
+          .chapter-content {
+            &.card-body {
+              .chapter {
+                padding: 10px 10px 0 15px;
+                svg {
+                  margin-right: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .LMS-middle-panel {
+        height: auto;
+        margin: 20px 0;
+        padding: 20px;
+
+        .mgrpdf__wrapper {
+          margin-bottom: 50px;
+        }
+
+        .screen-footer {
+          left: 0;
+        }
+      }
+      .LMS-right-panel {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1001;
+
+        &.hide {
+          width: 100vw;
+          right: -100vw;
+        }
+
+        .LMS-right-scroll {
+          height: calc(100vh - 55px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,237 @@
+.course-menu-container {
+  color: white;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blue;
+
+  .sneak-query {
+    > span {
+      font-size: 1.6rem;
+    }
+  }
+  .free_course {
+    color: #339faa;
+  }
+  .sneak-contact-sec {
+    border-left: 1px solid lightgrey;
+  }
+
+  .short-desc {
+    > p {
+      margin-bottom: .25rem;
+      display: inline;
+    }
+  }
+
+  .offer-expiry {
+    svg {
+      width: 18px;
+    }
+
+    .odometer-block {
+      display: inline;
+      span {
+        .day,
+        .hour,
+        .min,
+        .sec {
+          padding: 0;
+          min-width: 18px;
+          background: transparent;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .course-title {
+    font-size: 1.8rem;
+  }
+  .live-title {
+    font-size: .8rem;
+  }
+  
+
+  .learners-panel {
+    opacity: 0.9;
+    .rating-star {
+      color: #EFAC49;
+    }
+    // border-radius: 15px;
+    // height: 30px;
+    // margin-right: 20px;
+    // line-height: 2;
+  }
+  .title {
+    margin: 10px 0px 0px 0px;
+  }
+  .batch.starRatingsAlgn {
+    border-left: 1px solid black;
+    padding-left: 5px;
+  }
+
+  .course-glance {
+    color: #333;
+    position: absolute;
+    // min-height: 80vh;
+    // z-index: 1020;
+    max-width: 350px;
+    margin: 0 auto;
+    .card {
+      height: 100%;
+      min-width: 100%;
+      .course-sneak-peak {
+        padding-left: 10px;
+        font-size: 14px;
+        li {
+          svg {
+            margin-right: 15px;
+            width: 18px;
+          }
+          padding-bottom: 10px;
+        }
+      }
+      .course-sneak-price {
+        .price-info {
+          display: flex;
+          align-items: center;
+          svg {
+            width: 18px;
+          }
+        }
+        .actual-price {
+          font-size: 1.2rem;
+        }
+        .price-enroll {
+          button {
+            max-width: 250px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  .course-video {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    img {
+      width: 100%;
+      max-width: 350px;
+      min-width: 100%;
+    }
+    .play-text{
+      font-size: 1.2rem;
+      position: absolute;
+      bottom: 20px;
+      right: 80px;
+      border-radius: 50%;
+      padding: 0 10px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .play-button {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      border-radius: 50%;
+      padding: 10px;
+      background: white;
+      width: 45px;
+      height: 45px;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      svg {
+        width: 20px;
+      }
+    }
+    &:hover {
+      transform: scale(1.02);
+      transition: all .5s ease;
+    }
+  }
+  .users-views {
+    .enroll-panel {
+      height: auto;
+    }
+    .btn-grad1 {
+      background-image: linear-gradient(to right, #fc6076, #ff9a44);
+      width: 150px;
+      color: white;
+      border-radius: 25px;
+      &:hover {
+        background-position: right center;
+      }
+    }
+
+    .btn-grad2 {
+      background-image: linear-gradient(to right, #314755, #26a0da);
+      width: 150px;
+      color: white;
+      border-radius: 25px;
+      &:hover {
+        background-position: right center;
+      }
+    }
+  }
+
+  
+  button:focus {
+    outline: none;
+  }
+  .MuiTabs-flexContainer-30 > div {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .learners-panel {
+    justify-content: center;
+  }
+
+  .learners-panel > div {
+    // height: 35px;
+    &:nth-child(1) {
+      background: rgba(0, 0, 0, 0.4);
+      // padding: 0px 20px;
+      // border-top-left-radius: 25px;
+      // border-bottom-left-radius: 25px;
+    }
+    &:nth-child(2) {
+      background: #000;
+      // border-top-right-radius: 25px;
+      // border-bottom-right-radius: 25px;
+      // padding: 0px 20px;
+    }
+  }
+}
+
+.course-video-modal {
+  .modal-content {
+    background: transparent;
+    width: 100%;
+  }
+  .modal-close {
+    right: 10px;
+    top: -30px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.currency-change-modal {
+  .dropdown-toggle {
+    line-height: 1.2;
+  }
+}
+.linux-gift {
+  font-size: 1.4rem;
+}
+
+@import './courseMenuMediaQuery.scss'

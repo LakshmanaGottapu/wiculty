@@ -1,0 +1,84 @@
+.customViewer {
+  position: relative;
+  margin-top: 50px;
+}
+.customViewer > canvas {
+  width: 100%;
+}
+.customPages {
+  display: inline-block;
+  width: calc(100% - 2 * 50px);
+}
+.customWrapper {
+  height: 50px;
+  font-size: 16px;
+  padding: 12px;
+  padding-bottom: 0;
+  // background-color: #3A5680;
+  color: #333;
+  margin: 30px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.customScale {
+  > div {
+      margin: 5px;
+      svg {
+          font-size: 1.6rem;
+      }
+  }
+}
+
+
+.customCanvas {
+    display: flex;
+    justify-content: center;
+}
+.customPrevBtn {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    color: #fa5b35;
+    background-color: #f3f3f3;
+    border-color: #fa5b35;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+}
+.customNextBtn {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    color: #fa5b35;
+    background-color: #f3f3f3;
+    border-color: #333333;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+}
+.customResetBtn {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    color: #45fa35;
+    background-color: #f3f3f3;
+    border-color: #45fa35;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+}
+.customPages {
+    font-size: medium;
+    margin: 0.5rem;
+}
+
+.mirror-rotate {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}

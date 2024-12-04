@@ -1,0 +1,94 @@
+/*
+    @- Country Drop down page's style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.
+*/
+
+/*Country Drop down page*/
+@import '../scss/global';
+
+.new-country-dropdown {
+    .header-title {
+        cursor: pointer;
+        justify-content: center;
+        > div:nth-child(2) {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        div {
+            padding: 6px;
+        }
+    }
+}
+.mainwrapper{
+    // width: 13rem;
+    .header{
+        border: ($value-5 - 4) solid $light-gray;
+        border-radius:4%;
+        height: 38px;
+        outline: none;
+        color: #212529;
+        .downArrow{
+            float: right;
+            // margin-right: 13px;
+            cursor: pointer;
+        }
+    }
+    .countryAlgn{
+        position: absolute;
+        z-index: 1;
+        width: 300px;
+        background: $white;
+        border: 1px solid darkgray;
+        .contry-code-input {
+            margin: 7px;
+            width: 95%;
+            border-radius: 0;
+        }
+        #country-dropdown {
+            margin: 7px;
+            width: 95%;
+            border-radius: 0;
+        }
+    }
+.listOfcountry{
+        list-style: none;
+        width: 99%;
+        height:($value-10 * 22);
+        overflow-y: scroll;
+        margin-top: $value-5;
+        padding: 0;
+        li {
+            width:100%;
+            cursor: pointer;
+            color: #212529;
+            padding: 10px;
+            .phoneCodeHilight{
+                color: $light-gray;
+                margin-left: $value-10;
+            }
+            .phoneCountryName{
+                margin-left: $value-10;
+            }
+        }
+        li:hover {
+            background-color: #2683FF;
+            color: #fff;
+        }
+    }
+}
+.country-DD {
+    .DD-val {
+        // height: 35px;
+        .country-view {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 120px;
+        }
+    }
+}

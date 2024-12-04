@@ -1,0 +1,49 @@
+.accordian-container {
+    // max-height: 100vh;
+    // overflow: auto;
+    .chapterSection {
+        .chapterSection_accordian_tab {
+            min-height: 50px;
+            padding: 5px 10px;
+            // border: 1px solid #ccc;
+            box-shadow: 0 0 2px;
+            background: #ebf1f8;
+            display: flex;
+            svg {
+              margin-right: 10px;
+            }
+            cursor: pointer;
+            > p {
+                margin: 0px;
+                font-weight: 500;
+                padding: 0 5px;
+            }
+            .preview-video {
+              font-size: 1.5rem;
+              width: 25px;
+              height: 25px;
+              border-radius: 50%;
+              border: 2px solid darkgray;
+            }
+        }
+        .card {
+          background: #fff;
+        }
+        // .chapterSection_accordian_tab.active {
+        //   color: #333;
+        //   background: #fff;
+        // }
+        .chapterSection_accordian_title {
+          display: flex;
+          flex-grow: 1;
+          align-items: center;
+          justify-content: space-between;
+          .chapterSection_title {
+            font-weight: 500;
+            font-size: 1.1rem;
+          }
+        }
+        
+    }
+}
+

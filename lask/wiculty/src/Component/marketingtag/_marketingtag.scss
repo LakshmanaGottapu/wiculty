@@ -1,0 +1,358 @@
+/* 
+    @- Marketing Tag Sec style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+
+
+/*Marketig Tag FirstSec*/
+
+.engageHeader{
+    width: 92%;
+    p{
+        width: 100%;
+        padding-left: 50px;
+    }
+    p:nth-child(1){
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0;
+     }
+     p:nth-child(2){
+        font-size: 2rem;
+        margin: 0;
+     }
+}
+
+
+.marketigTagFirstSec{
+    // background: $wiculty-blue;
+    padding: 0px;
+    > div {
+        > div {
+            padding-right: 0px;
+        }
+    }
+    .marketingStripe{
+        position: relative;
+        @keyframes mymove {
+            from {top: -50px;}
+            to {top: -20px;}
+          }
+        > .down-arrow {
+            position: absolute;
+            right: 5%;
+            top: -50px;
+            animation: mymove 2s infinite;
+            > img {
+                width: 40px;
+            }
+        }
+        .outer{
+            width: 100%;
+            .inner_1{
+                width:15%;
+                height: 100%;
+                text-align: center;
+                padding: $value-5 * 3;
+                position: relative;
+                right: 1.1%;
+                color:$yellow;
+                // background: url(https://s3.ap-south-1.amazonaws.com/test-gamutgurus/img/icons-sprit.v1.0.png);
+                background-image: url('../../img/blackArrow.png');
+                background-position:3% 50.5%;
+                background-repeat: no-repeat;
+                .firstsecTag{
+                    width:63%;
+                    font-size: $value-10 + 4;
+                    font-weight: bold;
+                    color: $white;
+                    margin-bottom: 0px;
+                }
+               
+            }
+            .triangle{
+                width: 0;
+                height: 0;
+                border-top: (($value-5 * 7) + 4.7) solid transparent;
+                border-left: (($value-10 * 5) + 7) solid $white;
+                border-bottom: (($value-5 * 7) + 4.7) solid transparent;
+                position: absolute;
+                left: 12%;
+                top: ($value-5 - 8);
+            }
+            .inner_2{
+                width:85%;
+                .register.chracterSec {
+                    width: 65%;
+                    background-color: #000;
+                    text-align: center;
+                    padding: 15px 0px 0px 0px;
+                    cursor: pointer;
+                    > .register-text {
+                        font-weight: bold;
+                    }
+                    > h6 {
+                        width: 100%;
+                    }
+                }
+                .chracterSec{
+                    width:100%;
+                    align-items: center;
+                    vertical-align: middle;
+                    .firstCharcter{
+                        background: url(https://s3.ap-south-1.amazonaws.com/test-gamutgurus/img/icons-sprit.v1.0.png);
+                        width: ($value-10 * 8);
+                        height: 90%;
+                        background-position:0% 4.2%;
+                    }
+                    .count{
+                        line-height: 2;
+                        color:$white;
+                        span {
+                            font-size: 2rem;
+                            font-weight: bold;
+                        }
+                    }
+                    .symbol{
+                        line-height: 1.8;
+                        color:$white;
+                    }
+                    .text{
+                        line-height: 1.2;
+                        margin-left: $value-5;
+                        color:$white;
+                        margin-top: ($value-5 - 1);
+                        // width: 50%;
+                        font-size: 0.95rem;
+                    }
+                    .yearsExp{
+                        // width: 38% !important;
+                    }
+                    .secondCharacter{
+                        background: url(https://s3.ap-south-1.amazonaws.com/test-gamutgurus/img/icons-sprit.v1.0.png);
+                        width: ($value-10 * 10);
+                        height: 86%;
+                        margin-top: $value-5;
+                        background-position:31% 3.5%;
+                    }
+                    .thirdharcter{
+                        background: url(https://s3.ap-south-1.amazonaws.com/test-gamutgurus/img/icons-sprit.v1.0.png);
+                        width: ($value-10 * 10) - $value-5;
+                        height: 86%;
+                        margin-top: $value-5;
+                        background-position: 59% 4%;
+                    }
+                    .fourthCharcter{
+                        background: url(https://s3.ap-south-1.amazonaws.com/test-gamutgurus/img/icons-sprit.v1.0.png);
+                        width:($value-10 * 7) - 2;
+                        height: 86%;
+                        margin-top: $value-5;
+                        background-position: 79% 4%;
+                    }
+            }
+            }
+        }
+    }
+}
+
+
+/*Marketing Second Sec Style is declared*/
+.secondSecMarketingTag{
+    background: $second-sec-marktng-tag;
+    h5{
+        padding: $value-5;
+        
+    }
+    .mktgCourceBtn{
+        background-color: $yellow;
+    }
+}
+
+.freeDemo{
+    //font-size: 1.5rem !important;
+    //font-weight: bold;
+    .callback{
+        border-radius: 24.5px;
+        box-shadow: 1.7px 1.1px 3px 0 rgba(35, 31, 32, 0.6);
+        background-image: linear-gradient(177deg, #ffc516, #ff6f00);
+        margin-left: 15px;  
+        border: none;
+        font-weight: bold;     
+    }
+}
+
+/*Marketing Enquiry Form style is declared*/
+
+.marketing-container {
+    padding: 0px;
+    .pitchHolderInner {
+        width: 100%;
+    }
+    .marketingEnquiryForm {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 503px;
+        background-position: center;
+    }
+}   
+.marketingEnquiryForm{
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 503px;
+ background-position: center;
+ .marketingEnquiryText{
+     padding: 30px 30px;
+     p{
+        color: $white;
+        font-weight: bold;
+     }
+     p:nth-child(1), p:nth-child(2){
+        font-size: 2rem;
+        margin: 0;
+     }
+ }
+.row{
+    // padding: $value-10 0 0 ($value-10 * 10);
+ .contentArea{
+    padding: ($value-10 * 3) ($value-10 * 3);
+    // margin-top: 135px;
+    .marketingEnquiryFormTagline{
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: $value-5;
+        text-align: center;
+    }
+ }
+
+ .formHolder{
+    p{
+        color: $white;
+    }
+    p.wresolver{
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+        margin-left: 15px;
+        span.yellow-text{
+            font-size: 4.5rem;
+            font-weight: bold;
+        }
+    }
+    p.wresolverTitle1{
+        font-size: 1.1rem;
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+    p.wresolverTitle2{
+        font-size: 1.1rem;
+        margin-left: 80px;
+        span.yellow-text{
+            font-weight: bold;
+        }
+    }
+}
+
+ .contactForm{
+     display: flex;
+     margin : ($value-10 * 2) 0;
+     .form-group{
+         padding: $value-10, $value-10, $value-10, 0;
+         input{
+             background: transparent;
+             color: #fff;
+         }
+         .emailField{
+            //width: 268px;
+         }
+         input::placeholder{
+            color:$white;
+         }
+         .btn{
+             width: ($value-10 * 10);
+             background: $yellow;
+             @extend %no-border;
+         }
+     }
+     .d-inline-flex{
+         margin-right: 0px !important;
+     }
+ }
+}
+}
+
+#marketing-form{
+    width: 50%;
+    margin: 0px 15% 0px auto;
+    .d-inline-flex{
+        margin-right: 10px;
+        float: left;
+    }
+}
+
+.marketingCountryDd{
+    .form-group{
+        margin-bottom: 0px;
+    }
+    .mainwrapper{
+      width: 5rem;
+      .header{
+        // background-color:$light-gray;
+        .header-title{
+          h4{
+            font-size: 0.75rem;
+            // line-height: 31px;
+          }
+        }
+        .downArrow{
+          margin-top: 6px;
+        }
+      }
+      .countryAlgn{
+        // width: 25.5%;
+      }
+    }
+
+    .listOfcountry{
+        list-style: none;
+        width: 99%;
+        height:($value-10 * 22);
+        overflow-y: scroll;
+        margin-top: $value-5;
+        padding: 0px;
+        li{
+            width:75%;
+            cursor: pointer;
+            color: $black;
+            padding: 2px 10px;
+            text-align: left;
+            .phoneCodeHilight{
+                color: $light-gray;
+                margin-left: $value-10;
+            }
+            .phoneCountryName{
+                margin-left: $value-10;
+            }
+        }
+    }
+  }
+
+/*Marketing Third Sec Style is declared*/
+.marketingTagThirdSec,.marketingTagFourthSec{
+    @extend %default-margin;
+    background-image: linear-gradient(92deg, #e5e5e5, #a6a6a6);
+    color:$white;
+    padding: ($value-5) 0 ($value-5) 0;
+    text-align: center;
+    p{
+        margin: 0;
+        font-size: 1.45rem;
+        color: $black;
+        button{
+            margin-left: 15px;
+        }
+    }
+}
+
+/*Media Query for Marketing*/
+@import './mediaMarketing';

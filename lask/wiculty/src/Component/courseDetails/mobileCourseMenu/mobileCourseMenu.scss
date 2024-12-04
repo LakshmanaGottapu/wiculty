@@ -1,0 +1,17 @@
+.course-list-menu {
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    background: #fff;
+    border: 1px solid darkgray;
+    list-style: none;
+    min-height: 300px;
+    left: 0%;
+    // top: 40px;
+    text-align: left;
+    li {
+        outline: none;
+        padding: 10px 0 0 0;
+        cursor: pointer;
+    }
+}

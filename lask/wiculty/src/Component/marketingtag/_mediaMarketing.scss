@@ -1,0 +1,85 @@
+/* 
+    @- Markrketing Tags Media Query Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+
+@media(max-width:1200px){
+    .marketigTagFirstSec{
+        .marketingStripe{
+            .inner_1{
+                display: none;
+            }
+            .inner_2{
+                width:100% !important;
+                .chracterSec
+                { 
+                    .firstCharcter{
+                        width: ($value-10 * 10) !important;
+                    }
+                .secondCharacter{
+                    width: ($value-10 * 11) !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .engageHolder{
+        display: none;
+    }
+    .marketigTagFirstSec{
+        .marketingStripe{
+            .inner_2{
+                .chracterSec
+                { 
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px){
+    /*.marketigTagFirstSec{
+        display: none;
+    }*/
+    .engageHolder{
+        display: none;
+    }
+    #marketing-form{
+        width: 100%;
+        margin: 0;
+    }
+    .marketigTagFirstSec{
+        .marketingStripe{
+            .down-arrow{
+                display: none;
+            }
+            .outer{
+                .inner_2{
+                    .chracterSec{
+                        .count{
+                            > span {
+                                font-size: 1rem;
+                            }
+                        }
+                        h2{
+                            font-size: 1rem;
+                        }
+                        .text{
+                            font-size: 0.5rem;
+                        }
+                    }
+                    .register{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

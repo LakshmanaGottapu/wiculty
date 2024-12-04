@@ -1,0 +1,18 @@
+.self_paced_title {
+    border-bottom: 3px solid #ff6f00;
+    line-height: 48px;
+}
+.free-label {
+    height: 40px;
+    width: 110px;
+    background: #227B7D;
+    position: absolute;
+    top: -2px;
+    right: -38px;
+    transition: all .3s;
+    transform: rotate(40deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: #EFC744;;
+}

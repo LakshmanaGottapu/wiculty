@@ -1,0 +1,59 @@
+.enroll-menu-container {
+        width: 100%;
+        
+}
+
+
+
+.demand-analysis-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 2px #f6921e;
+    background: white;
+}
+.demand-analysis-container > div {
+    padding: 10px;
+    width: 200px;
+    margin: 0;
+    border-right: 1px solid #0485e8;
+}
+.demand-analysis-container div:last-child {
+    border-right: 0px;
+}
+.demand-analysis > div {
+    text-align: center;
+    margin:10px 5px;
+}
+.demand-analysis .icon-design {
+    height: 35px;
+    width: 35px;
+    color: white;
+    border-radius: 50%;
+    background-color: #51a888;
+}
+.demand-img img {
+    width: 100%;
+    height:130px;
+}
+.horizotal-line {
+    width: 500px;
+}
+.horizotal-line hr {
+    border-top: 2px solid #f6921e;
+}
+.demand-container {
+    overflow-x: auto;
+}
+
+   
+.cd-uw {
+    .col,
+    .row,
+    .col-lg-12,
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+@import './enrollMediaQuery';

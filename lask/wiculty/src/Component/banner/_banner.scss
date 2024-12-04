@@ -1,0 +1,66 @@
+/*
+    @- Banner Section Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.
+*/
+
+/*Offer Banner Section*/
+.offerBannersec{
+    // background: linear-gradient(to left, #0c5397, #248de4);
+    background-color: rgb(240,134,74);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    .container {
+        margin: 0 auto;
+        // background: cornflowerblue;
+        background: transparent;
+        border-radius: 3px;
+        color: white;
+    }
+    .offerBannerText {
+        text-align: center;
+        p {
+            margin-bottom: 0.15rem;
+            .offer-title {
+                border: 1px solid;
+                border-style: none;
+                padding: 3px 15px;
+            }
+        }
+    }
+    .bannerClose{
+        position:absolute;
+        top: ($value-5 + 3);
+        right: 10px;
+        font-size:($value-10 * 2) - 1;
+        color:$white;
+    }
+}
+.special-offer-container {
+    // background-color: rgb(93, 158, 191);
+    background-color: #1261AB;
+    .flag-text {
+        text-transform: uppercase;
+        background: linear-gradient(to bottom, #FA9A4B, #ffffff, #46c708);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .special-offer-close {
+        font-size: 20px;
+    }
+}
+ @media only screen and (min-width: 767px) {
+    .offerBannersec{
+        .offerBannerText p {
+            .offer-title {
+                border-style: dashed;
+            }
+        }
+    }
+  }
+
+  @import './bannerMedia.scss';

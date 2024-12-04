@@ -1,0 +1,17 @@
+@media only screen and (min-width: 767px) {
+    .offerBannersec{
+        .offerBannerText p {
+            .offer-title {
+                border-style: dashed;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .special-offer-container {
+        h2 {
+            font-size: 1rem;
+        }
+    }
+}

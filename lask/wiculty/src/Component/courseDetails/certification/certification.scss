@@ -1,0 +1,15 @@
+.certificate-menu-container {
+  width: 100%;
+
+  .certification-header {
+    margin: 10px 10px 10px 0px;
+  }
+  .certificate-container {
+    > div {
+      background-color: #fbfbfb;
+    }
+    img {
+      border: 1px solid gray;
+    }
+  }
+}

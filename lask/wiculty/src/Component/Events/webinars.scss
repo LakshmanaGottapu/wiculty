@@ -1,0 +1,93 @@
+.event-container {
+    .registers {
+        color: #417505;
+    }
+    .event-banner-container {
+        min-height: 50vh;
+    }
+}
+
+.browse-category-container  {
+    flex-wrap: wrap;
+    .browse-category-item {
+        min-height: 100px;
+        flex: 0 0 230px;
+        border: 1px solid #c6c6c6;
+    }
+}
+
+
+
+// <!--  All events page csss -->
+.all-events-section {
+    .event-title-section {
+        border: 1px;
+        border-top-style: dotted;
+        svg {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+
+// <!--  generic css for webinars -->
+.event-card {
+    .slick-title-height {
+        min-height: 75px;
+    }
+}
+.slick-title-height {
+    min-height: 100px;
+}
+.event-period {
+    color: #606060;
+    > span {
+        padding-right: .5rem;;
+    }
+}
+.event-title {
+    color: #000;
+}
+.title-color {
+    color: #205696;
+}
+.event-card {
+    min-height: 270px;
+    box-shadow: 5px 2px 10px 0 rgba(47,83,151,0.15);
+    .event_link {
+        border-width: 1px;
+    }
+    &:focus {
+        outline: white;
+    }
+}
+.community {
+    background-color: #EFF6FE;
+}
+
+.overview-color {
+    color: #417505;
+}
+.icon-color {
+    color: rgb(58,112,231);
+}
+
+.br-2 {
+    border: 1px solid;
+}
+
+// <!-- Upcoming event css -->
+.upcoming-annexure-tab {
+    min-height: 50px;
+    padding: 5px 10px;
+    border: 1px solid #f3f6f8;
+    box-shadow: 0 2px 10px 0 rgba(47,83,151,0.15);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+
+@import './webinarsMedia.scss';

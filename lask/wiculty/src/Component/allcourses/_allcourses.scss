@@ -1,0 +1,236 @@
+/* 
+    @- Allcourses Page Component style is being declared.
+
+            %- Create a new class, add a global variable value and inherit in the class required.
+            %- Please Ensure that style is inherited and ensure that its is also updated in its
+               perticular section where it is used.  
+*/
+
+
+/*All Courses styles*/
+%card-padding{
+    padding:$value-5 * 2;
+}
+%vetical-align{
+    vertical-align: middle;
+}
+.allCourses {
+    .allCoursesAlgn{
+        margin: 0 auto;
+    }
+    .card{
+        margin-top: 10px;
+        box-shadow: $generalised-cont-shadow;
+        
+    .outer{
+        .getMoreListing{
+            position: relative;
+            bottom: 15px;
+            left: 30px;           
+        }
+        .inner_1{
+            // width:25%;
+            height: 350px;
+            position: relative;
+            .course-img-div {
+                height: 85%;
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+                transition: all 0.5s ease;
+                color: #000000;
+                background-color: #cccccc;
+                border-bottom-right-radius: 40px;
+            }
+            
+        }
+            .inner_2{
+                // width:85%;
+                padding: 0px;
+                .display-flex{
+                    align-items: center;
+                    vertical-align: middle;
+                    width:100%;
+                    .partition_1{
+                        width: 40%;
+                        @extend %no-margin;
+                    }
+                    
+                    .partition_2{
+                        width: 25%;
+                        text-align:center;
+                        @extend %no-margin;
+                    }
+                    .partition_3{
+                        width: 25%;
+                        font-size: ($value-5 * 4) + 2;
+                        text-align: right;
+                        p{
+                            @extend %no-margin;
+                            font-size: ($value-5 * 3) + 1;
+                            text-align: right;
+                            margin-right: ($value-5 * 3) + 1;
+                        }
+                    }
+                }
+                .bottomContent{
+                    margin:0 0 0 ($value-10);
+                    text-align: center;
+                    .getMore{
+                        position: relative;
+                        float: right;
+                        right:13%;
+                        bottom: $value-5;
+                        background: $white;
+                        @extend %no-border;
+                        color:$black;
+                        box-shadow: $generalised-cont-shadow;
+                        font-size: 0.85rem;
+                    }
+                    .socialTagalgn{
+                        margin-right:$value-10 * 3; 
+                        font-size: 0.85rem;
+                        svg{
+                            font-size: 1.5rem;
+                        }
+                    .fa-tv{
+                        padding: $value-5 + 1;
+                        border-radius: 50%;
+                        margin-right: $value-10;
+                        background: $gliph-green-color;
+                        color: white;
+                        @extend %vetical-align;
+                    }    
+                .fa-clock{
+                    padding: $value-5 + 1;
+                    border-radius: 50%;
+                    background: $gliph-dark-green-clor;
+                    color: white;
+                    margin-right: $value-10;
+                    @extend %vetical-align;
+                }
+                .fa-folder{
+                    padding: $value-5 + 1;
+                    border-radius: 50%;
+                    margin-right: $value-10;
+                    background: $gliph-dark-purple;
+                    color: white;
+                    @extend %vetical-align;
+                }            
+            }
+            }
+            .listTitleContainer{
+                padding-left: 0px;
+                h5{
+                    font-size: 1.1rem;
+                    line-height: 3.5rem;
+                    background: #272727;
+                    //background:linear-gradient(107deg,#4A382F,#E0C1B4) ;
+                    color: $white;
+                    text-align: center;
+                    font-weight: bold;
+                }
+            }
+            .listingRating{
+                p{
+                    font-size: 0.85rem;
+                    color: #888888;
+                    margin-bottom: 0px;
+                }
+            }
+            .listingShortDesc{
+                margin: 20px 100px 20px 100px;
+                p{
+                    font-size: 0.85rem;
+                    color: #333333;
+                }
+            }
+                .courseContent{
+                    margin: 0 10rem 0 0;
+                }
+            }
+        }
+    }
+    .mobile-view {
+        .mobile-view-courseitem {
+            border: 1px solid #d3d3d3;
+            .mobile-view-courseinfo {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.listingInfo{
+    flex: none;
+    justify-content: center;
+    .learners, .ratings {
+        .label, .count {
+            min-height: 30px;
+            min-width: 100px;
+        }
+    }
+    .learners, .ratings{
+        margin-right: 15px;
+        .label{
+            float: left;
+            background: #e1e1e1;
+            color: $white;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            color: #363636;
+        }
+        .count{
+            float: left;
+            background: #363636;
+            color: $white;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            color: #ffffff;
+            .dv-star-rating{
+                font-size: 0.85rem;
+                .dv-star-rating-star{
+                    margin: 0px;
+                }
+            }
+        }
+    }
+
+}
+
+/*particular section medai query import*/
+@import './allcoursMediaQuery';
+
+
+//Desktop
+@media only screen and (min-width: 1025px) {
+    .courseName {
+        display: none;
+    }
+}
+// Tablet
+@media only screen and (max-width: 991px) {
+    .courseName {
+        display: none;
+    }
+}
+// Mobile
+@media only screen and (max-width: 767px) {
+    .courseName {
+        display: block;
+        position: absolute;
+        top: 15%;
+        font-weight: bold;
+        font-size: 1.6rem;
+        background: none;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+      }
+    .mobile-view {
+        .h-100 {
+            height: auto !important;
+        }
+    }
+}

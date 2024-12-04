@@ -1,0 +1,27 @@
+@media only screen and (max-width: 765px) {
+    .demand-container {
+        overflow-x: auto;
+        .demand-analysis-container {
+            border: none;
+            background: transparent;
+            .demand-analysis {
+                flex: none;
+                border: solid 1px #f6921e;
+                background: white;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cd-event-sec {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

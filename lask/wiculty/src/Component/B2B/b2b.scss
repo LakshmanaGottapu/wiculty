@@ -1,0 +1,71 @@
+#b2b-conatiner {
+    min-height: 80vh;
+    .b2b-pro-phase {
+        min-height: 300px;
+    }
+    .upper-section {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+        flex-direction:column;
+        #tag-line {
+            color: white;
+            #training-header {
+                text-transform: uppercase;
+                background: linear-gradient(to left, #FF6F00, yellow);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font: { size: 20vw};
+            }
+        }
+    }
+
+    .b2b-form {
+        max-width: 400px;
+        padding: 30px 15px;
+        box-shadow: 8px 5px 8px 0 rgba(0, 0, 0, 0.2), 8px 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 0 auto;
+        border-radius: 25px;
+        .mobile-input {
+            width: 100%!important;
+        }
+        .b2b-resume {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            > input {
+                padding: 5px;
+            }
+        }
+        .form-errors {
+            color: #dc3545;
+            font-size: 15px;
+        }
+        > h6, > p {
+            color: #fff;
+            text-align: center;
+        }
+        .b2b-img {
+            text-align: center;
+            > img {
+                width: 150px;
+                height: 100px;
+            }
+        }
+        .register-button {
+            text-align: center;
+            margin: 10px;
+        }
+        .side-fileds {
+            margin: 0 10px 0 0;
+        }
+        .d-inline-flex{
+            width: 97%;
+        }
+    }
+
+    .freeCourseSecAlgn {
+        width: 100%;
+    }
+}

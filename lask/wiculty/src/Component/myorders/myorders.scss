@@ -1,0 +1,70 @@
+.myorders-container{
+    padding-left: 10px;
+    margin: 0 auto;
+    padding-right: 10px;
+    overflow-x: auto;
+    .free-course-title {
+        color: #217F6C;
+    }
+    .pitchHolder .pitchHolderInner {
+        margin: 0 auto;
+        // box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16);
+        padding: 10px;
+        // background-color: #ebebeb;
+    }
+    .ordersRow {
+        margin-bottom: 10px;
+        border-radius: 15px;
+        color: #ffffff;
+        background-color: #fff;
+        min-height: 240px;
+        border: 1px solid lightgray;
+        .orderImageHolder{
+            padding: 0px;
+          > img {
+            border-radius: 10px 0px 0 10px;
+          }
+        }
+        button{
+            margin-left: 15px;
+            margin-top: 40%;
+        }
+        .ordersInfoHolder{
+            padding: 10px;
+            div{
+                margin-top: 5px;
+                font-style: italic;
+                font-weight: 400;
+                .currency-symbol {
+                    padding: 0 5px 0 0;
+                }
+            }
+            color: #000000;
+        }
+    }
+    .title{
+        p{
+            margin: 0 auto;
+            font-size: 1.25rem;
+        }
+    }
+    .invoice-button {
+        margin: 5px;
+        button {
+            min-width: 150px;
+            height: 40px;
+        }
+    }
+    .mobile-view {
+        border: 1px solid lightgray;
+        .price-info {
+            background: #EDEFF3;
+            color: #000;
+        }
+        .order-item-id {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+}

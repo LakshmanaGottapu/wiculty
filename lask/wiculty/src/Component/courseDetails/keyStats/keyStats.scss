@@ -1,0 +1,24 @@
+.keyStats-circle {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #52bfe7;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.keyStats-section {
+    border-radius: 5px;
+}
+.keyStats-section:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    height: 8px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, #F6724B 0%, #EFAC49 100%);;
+}
